@@ -1,4 +1,7 @@
 import { PlatformRaw, ServiceRaw } from "../types";
+import { NetworkId } from '@sonarwatch/portfolio-core';
+import { ServiceDefinition } from '../ServiceDefinition';
+
 export const platform: PlatformRaw = {
   id: "magna",
   name: "Magna",
@@ -11,4 +14,34 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/magna_digital/photo",
   },
 };
-export const services: ServiceRaw[] = [];
+
+const airdropContract = {
+  name: 'Vesting Airdrop',
+  address: '3zK38YBP6u3BpLUpaa6QhRHh4VXdv3J8cmD24fFpuyqy',
+  platformId: platform.id,
+};
+
+const airdropService: ServiceDefinition = {
+  id: `${platform.id}-airdrop`,
+  name: 'Vesting Airdrop',
+  platformId: platform.id,
+  networkId: NetworkId.solana,
+  contracts: [airdropContract],
+};
+
+const maintContract = {
+  name: 'Core',
+  address: 'magnaSHyv8zzKJJmr8NSz5JXmtdGDTTFPEADmvNAwbj',
+  platformId: platform.id,
+};
+
+const service: ServiceDefinition = {
+  id: `${platform.id}-core`,
+  name: 'Asset Management',
+  platformId: platform.id,
+  networkId: NetworkId.solana,
+  contracts: [maintContract],
+};
+
+export const services: ServiceDefinition[] = [service, airdropService];
+export default services;

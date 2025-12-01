@@ -1,11 +1,8 @@
-import { NetworkId } from "@sonarwatch/portfolio-core";
-import {
-  Contract,
-  ContractRaw,
-  PlatformRaw,
-  Service,
-  ServiceRaw,
-} from "../types";
+import { PlatformRaw } from "../types";
+import { NetworkId } from '@sonarwatch/portfolio-core';
+import { ServiceDefinition } from '../ServiceDefinition';
+import { jupiterV6Contract } from './jupiter';
+
 export const platform: PlatformRaw = {
   id: "vaultka",
   name: "Vaultka",
@@ -22,68 +19,72 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-const lendingV1Contracts: ContractRaw[] = [
-  "DE7BUY3Fa4CRc44RxRDpcknbCT6mYTY3LpZNFET7k3Hz",
-  "DMhoXyVNpCFeCEfEjEQfS6gzAEcPUUSXM8Xnd2UXJfiS",
-  "nKMLJtN1rr64K9DjmfzXvzaq4JEy5a4AJHHP9gY1dW6",
-  "69oX4gmwgDAfXWxSRtTx9SHvWmu2bd9qVGjQPpAFHaBF",
+const lendingV1Contracts = [
+  'DE7BUY3Fa4CRc44RxRDpcknbCT6mYTY3LpZNFET7k3Hz',
+  'DMhoXyVNpCFeCEfEjEQfS6gzAEcPUUSXM8Xnd2UXJfiS',
+  'nKMLJtN1rr64K9DjmfzXvzaq4JEy5a4AJHHP9gY1dW6',
+  '69oX4gmwgDAfXWxSRtTx9SHvWmu2bd9qVGjQPpAFHaBF',
 ].map((address) => ({
-  name: "Lending V1",
+  name: 'Lending V1',
   address,
+  platformId: platform.id,
 }));
 
-const stragegyV1Contracts: ContractRaw[] = [
-  "6UBsNdYq3MEao1m9NXQD1VEmXvptUXhfMwdHANGAo4bs",
-  "B3FS1X2PZPBrtBZiyAN9oqABnu3o5YWwdY5ioqoVh64P",
-  "SkFLfp7eSRsan13dEUZSVzMBj3vdyZnhaasFKQTzuiE",
-  "6VwarrrqWVWAmZtNdgGafeyoXD3SsspKxuxkZVarZqTA",
-  "9p5Sc5SvR8QpJCQV3U4q6zVUTupr4Tr9Jmf48sbcSjtX",
-  "FRyGij76xTvAg1nPPTaXHfa3QxUfZuKARuAyAaMyoLPo",
-  "A7PDwCJ3qcdVoZLqq7wHAwMq9yEKZU2vFx7Y9qbZ1dKJ",
+const stragegyV1Contracts = [
+  '6UBsNdYq3MEao1m9NXQD1VEmXvptUXhfMwdHANGAo4bs',
+  'B3FS1X2PZPBrtBZiyAN9oqABnu3o5YWwdY5ioqoVh64P',
+  'SkFLfp7eSRsan13dEUZSVzMBj3vdyZnhaasFKQTzuiE',
+  '6VwarrrqWVWAmZtNdgGafeyoXD3SsspKxuxkZVarZqTA',
+  '9p5Sc5SvR8QpJCQV3U4q6zVUTupr4Tr9Jmf48sbcSjtX',
+  'FRyGij76xTvAg1nPPTaXHfa3QxUfZuKARuAyAaMyoLPo',
+  'A7PDwCJ3qcdVoZLqq7wHAwMq9yEKZU2vFx7Y9qbZ1dKJ',
 ].map((address) => ({
-  name: "Stragegy V1",
+  name: 'Stragegy V1',
   address,
+  platformId: platform.id,
 }));
 
-const vaultkaV2Contract: ContractRaw = {
-  name: "Vaultka V2",
-  address: "V1enDN8GY531jkFp3DWEQiRxwYYsnir8SADjHmkt4RG",
+const vaultkaV2Contract = {
+  name: 'Vaultka V2',
+  address: 'V1enDN8GY531jkFp3DWEQiRxwYYsnir8SADjHmkt4RG',
+  platformId: platform.id,
 };
 
-const lendingV1Service: ServiceRaw = {
+const lendingV1Service: ServiceDefinition = {
   id: `${platform.id}-lending-v1`,
-  name: "Lending V1",
+  name: 'Lending V1',
   platformId: platform.id,
   networkId: NetworkId.solana,
-  contractsRaw: [...lendingV1Contracts],
+  contracts: [...lendingV1Contracts],
 };
-const strategyV1Service: ServiceRaw = {
+const strategyV1Service: ServiceDefinition = {
   id: `${platform.id}-stragegy-v1`,
-  name: "Strategy V1",
+  name: 'Strategy V1',
   platformId: platform.id,
   networkId: NetworkId.solana,
-  contractsRaw: [...stragegyV1Contracts],
+  contracts: [...stragegyV1Contracts],
 };
 
-const lendingV2Service: ServiceRaw = {
+const lendingV2Service: ServiceDefinition = {
   id: `${platform.id}-lending-v2`,
-  name: "Lending V2",
+  name: 'Lending V2',
   platformId: platform.id,
   networkId: NetworkId.solana,
-  contractsRaw: [vaultkaV2Contract],
+  contracts: [vaultkaV2Contract],
 };
 
-const leverageService: ServiceRaw = {
+const leverageService: ServiceDefinition = {
   id: `${platform.id}-leverage`,
-  name: "Leverage",
+  name: 'Leverage',
   platformId: platform.id,
   networkId: NetworkId.solana,
-  contractsRaw: [vaultkaV2Contract],
+  contracts: [vaultkaV2Contract, jupiterV6Contract],
 };
 
-export const services: ServiceRaw[] = [
+export const services: ServiceDefinition[] = [
   lendingV1Service,
   strategyV1Service,
   lendingV2Service,
   leverageService,
 ];
+export default services;

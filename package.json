@@ -38,6 +38,8 @@
     "preversion": "npm run build:index && npm run test:ci && npm run build:ci && npm run format && (npm run commit:index || true)"
   },
   "devDependencies": {
+    "@sonarwatch/portfolio-core": "^0.16.44",
+    "@solana/web3.js": "^1.95.8",
     "@types/jest": "^29.5.14",
     "globals": "^16.0.0",
     "jest": "^29.7.0",
@@ -48,6 +50,7 @@
     "zod": "^3.24.2"
   },
   "peerDependencies": {
-    "@sonarwatch/portfolio-core": "^0.16.44"
+    "@sonarwatch/portfolio-core": "^0.16.44",
+    "@solana/web3.js": "^1.95.8"
   }
 }
