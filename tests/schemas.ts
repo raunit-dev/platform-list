@@ -20,7 +20,12 @@ export const ServiceSchema = z.object({
 });
 
 export const PlatformSchema = z.object({
-  id: z.string(),
+  id: z
+    .string()
+    .regex(
+      /^[a-z0-9][a-z0-9-]*$/,
+      "Platform ID must be in kebab-case: lowercase letters, numbers, and hyphens only. Cannot start with a hyphen.",
+    ),
   name: z.string(),
   image: z.string().url(),
   tags: z.array(z.string()).min(1),
