@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 export const ContractSchema = z.object({
+  id: z.string(),
   name: z.string(),
   address: z.string(),
   serviceId: z.string(),

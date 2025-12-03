@@ -103,9 +103,32 @@ describe("Contracts", () => {
     );
 
     if (duplicates.length > 0) {
-      throw new Error(
-        `Found duplicate contracts: ${duplicates.join(", ")}`,
-      );
+      throw new Error(`Found duplicate contracts: ${duplicates.join(", ")}`);
     }
   });
+
+  // it("should have id formatted as networkId-address", () => {
+  //   const invalidContracts = contracts.filter(
+  //     (contract) => contract.id !== `${contract.networkId}-${contract.address}`,
+  //   );
+
+  //   if (invalidContracts.length > 0) {
+  //     throw new Error(
+  //       `Found contracts with invalid id format: ${invalidContracts
+  //         .map((c) => `${c.id} (expected: ${c.networkId}-${c.address})`)
+  //         .join(", ")}`,
+  //     );
+  //   }
+  // });
+
+  // it("should not have duplicate ids", () => {
+  //   const ids = contracts.map((contract) => contract.id);
+  //   const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
+
+  //   if (duplicates.length > 0) {
+  //     throw new Error(
+  //       `Found duplicate contract ids: ${duplicates.join(", ")}`,
+  //     );
+  //   }
+  // });
 });

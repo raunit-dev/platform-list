@@ -63,6 +63,7 @@ export type ServiceRaw = Omit<Service, "contracts"> & {
  * Represents a smart contract/program
  */
 export type Contract = {
+  id: string;
   name: string;
   address: string;
   serviceId: string;
@@ -72,5 +73,5 @@ export type Contract = {
 
 export type ContractRaw = Omit<
   Contract,
-  "serviceId" | "platformId" | "networkId"
+  "id" | "serviceId" | "platformId" | "networkId"
 >;
