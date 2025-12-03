@@ -30,4 +30,11 @@ const lfgService: ServiceRaw = {
   contractsRaw: [lfgContract],
 };
 
-export const services: ServiceRaw[] = [lfgService];
+const dtfService: ServiceRaw = {
+  id: `${platform.id}-dtf`,
+  name: "DTF",
+  platformId: platform.id,
+  contractsRaw: [dtfContract],
+};
+
+export const services: ServiceRaw[] = [lfgService, dtfService];
