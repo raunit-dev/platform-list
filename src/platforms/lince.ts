@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "lince",
   name: "Lince",
@@ -13,4 +13,17 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-export const services: ServiceRaw[] = [];
+const contract: ContractRaw = {
+  name: 'Lince',
+  address: 'LnceiBjUxxjGbhFpKz3SoGo9ntPYwm1DC3wkEQhav9j',
+  networkId: NetworkId.solana,
+}
+
+export const services: ServiceRaw[] = [
+  {
+    id: 'lince',
+    name: 'Lending',
+    platformId: platform.id,
+    contractsRaw: [contract],
+  },
+];

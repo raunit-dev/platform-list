@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "okx",
   name: "OKX",
@@ -9,4 +9,28 @@ export const platform: PlatformRaw = {
   },
   tags: ["bridge", "dapp"],
 };
-export const services: ServiceRaw[] = [];
+const aggregator: ContractRaw = {
+  name: `Aggregator`,
+  address: '6m2CDdhRgxpH4WjvdzxAYbGxwdGUz5MziiL5jek2kBma',
+  networkId: NetworkId.solana,
+}
+const aggregatorV6: ContractRaw = {
+  name: `Aggregator V6`,
+  address: 'proVF4pMXVaYqmy4NjniPh4pqKNfMmsihgd4wdkCX3u',
+  networkId: NetworkId.solana,
+}
+
+export const services: ServiceRaw[] = [
+  {
+    id: `${platform.id}-aggregator`,
+    name: 'Aggregator',
+    platformId: platform.id,
+    contractsRaw: [aggregator],
+  },
+  {
+    id: `${platform.id}-aggregator-v6`,
+    name: 'Aggregator V6',
+    platformId: platform.id,
+    contractsRaw: [aggregatorV6],
+  },
+];

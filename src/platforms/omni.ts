@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "omni",
   name: "Omni Bridge",
@@ -9,4 +9,17 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp"],
 };
-export const services: ServiceRaw[] = [];
+const bridge: ContractRaw = {
+  name: `Bridge`,
+  address: 'dahPEoZGXfyV58JqqH85okdHmpN8U2q8owgPUXSCPxe',
+  networkId: NetworkId.solana,
+}
+
+export const services: ServiceRaw[] = [
+  {
+    id: `${platform.id}-bridge`,
+    name: 'bridge',
+    platformId: platform.id,
+    contractsRaw: [bridge],
+  },
+];
