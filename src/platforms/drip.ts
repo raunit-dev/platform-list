@@ -26,4 +26,7 @@ export const creatorRewardsService: ServiceRaw = {
   contractsRaw: [],
 };
 
-export const services: ServiceRaw[] = [collectingService, creatorRewardsService];
+export const services: ServiceRaw[] = [
+  collectingService,
+  creatorRewardsService,
+];
