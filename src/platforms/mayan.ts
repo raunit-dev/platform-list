@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
   tags: ["bridge", "tool", "dapp"],
 };
 
-const contract = {
+export const swiftContract = {
   name: "Swift",
   address: "BLZRi6frs4X4DNLw56V4EXai1b6QVESN1BhHBTYM9VcY",
   networkId: NetworkId.solana,
@@ -23,7 +23,7 @@ export const claimService: ServiceRaw = {
   id: `${platform.id}-claim`,
   name: "Claim",
   platformId: platform.id,
-  contractsRaw: [contract],
+  contractsRaw: [swiftContract],
 };
 
 export const bridgeService: ServiceRaw = {
