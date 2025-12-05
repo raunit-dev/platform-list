@@ -27,12 +27,12 @@ const neutral1VaultsContract: ContractRaw = {
 };
 const neutral2VaultsContract: ContractRaw = {
   name: "Neutral Vaults",
-  address: "9Fcn3Fd4d5ocrb12xCUtEvezxcjFEAyHBPfrZDiPt9Qj",
+  address: "EuSLjg23BrtwYAk1t4TFe5ArYSXCVXLBqrHRBfWQiTeJ",
   networkId: NetworkId.solana,
 };
 const neutral3VaultsContract: ContractRaw = {
   name: "Neutral Vaults",
-  address: "9Fcn3Fd4d5ocrb12xCUtEvezxcjFEAyHBPfrZDiPt9Qj",
+  address: "BVddkVtFJLCihbVrtLo8e3iEd9NftuLunaznAxFFW8vf",
   networkId: NetworkId.solana,
 };
 
