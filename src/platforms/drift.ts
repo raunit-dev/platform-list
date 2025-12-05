@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { PlatformRaw, ServiceRaw, NetworkId, ContractRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "drift",
   name: "Drift",
@@ -19,6 +19,12 @@ export const platform: PlatformRaw = {
 const contract = {
   name: "Drift",
   address: "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+  networkId: NetworkId.solana,
+};
+
+const vaultsContract: ContractRaw = {
+  name: "Drift Vaults",
+  address: "vAuLTsyrvSfZRuRB3XgvkPwNGgYSs9YRYymVebLKoxR",
   networkId: NetworkId.solana,
 };
 
@@ -53,6 +59,13 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+};
+
+export const vaultsService: ServiceRaw = {
+  id: `${platform.id}-vaults`,
+  name: "Vaults",
+  platformId: platform.id,
+  contractsRaw: [vaultsContract],
 };
 
 export const services: ServiceRaw[] = [

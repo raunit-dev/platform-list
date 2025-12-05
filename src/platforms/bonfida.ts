@@ -15,6 +15,17 @@ export const platform: PlatformRaw = {
   },
   tokens: ["EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"],
 };
+const contract = {
+  name: "Offer",
+  address: "85iDfUvr3HJyLM2zcq5BXSiDvUWfw6cSE1FfNBo8Ap29",
+  networkId: NetworkId.solana,
+};
+
+const airdropContract = {
+  name: "Airdrop",
+  address: "bMersFdXPWiRzjqmbviCRMvwvN1FpRmATaqrF894CbU",
+  networkId: NetworkId.solana,
+};
 
 const recordContract = {
   name: "Records Program",
@@ -34,6 +45,20 @@ const registrarContract = {
   networkId: NetworkId.solana,
 };
 
+const airdropService: ServiceRaw = {
+  id: `${platform.id}-airdrop`,
+  name: "Airdrop",
+  platformId: platform.id,
+  contractsRaw: [airdropContract],
+};
+
+const offerService: ServiceRaw = {
+  id: `${platform.id}-offers`,
+  name: "Offers",
+  platformId: platform.id,
+  contractsRaw: [contract],
+};
+
 export const mainService: ServiceRaw = {
   id: `${platform.id}-domaine-name`,
   name: "Name Service",
@@ -41,4 +66,8 @@ export const mainService: ServiceRaw = {
   contractsRaw: [nameServiceContract, registrarContract, recordContract],
 };
 
-export const services: ServiceRaw[] = [mainService];
+export const services: ServiceRaw[] = [
+  mainService,
+  airdropService,
+  offerService,
+];

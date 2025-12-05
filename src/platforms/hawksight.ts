@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "hawksight",
   name: "HawkFi",
@@ -15,4 +15,17 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-export const services: ServiceRaw[] = [];
+const mainContract = {
+  name: "Main",
+  address: "FqGg2Y1FNxMiGd51Q6UETixQWkF5fB92MysbYogRJb3P",
+  networkId: NetworkId.solana,
+};
+
+export const mainService: ServiceRaw = {
+  id: `${platform.id}-core`,
+  name: "Core",
+  platformId: platform.id,
+  contractsRaw: [mainContract],
+};
+
+export const services: ServiceRaw[] = [mainService];

@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { PlatformRaw, ServiceRaw, NetworkId, ContractRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "nxfinance",
   name: "NX Finance",
@@ -20,6 +20,12 @@ const contract = {
 const leverageContract = {
   name: "Leverage",
   address: "EHBN9YKtMmrZhj8JZqyBQRGqyyeHw5xUB1Q5eAHszuMt",
+  networkId: NetworkId.solana,
+};
+
+const vaultsContract: ContractRaw = {
+  name: "NX Finance Vaults",
+  address: "HYHnL9BB3tqSPxkVbdcAn9CAa4hyqNYUh1FwDc4he7aD",
   networkId: NetworkId.solana,
 };
 
@@ -49,6 +55,13 @@ export const leverageService: ServiceRaw = {
   contractsRaw: [leverageContract],
 };
 
+export const vaultsService: ServiceRaw = {
+  id: `${platform.id}-vaults`,
+  name: "Vaults",
+  platformId: platform.id,
+  contractsRaw: [vaultsContract],
+};
+
 export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
@@ -66,6 +79,7 @@ export const airdropService: ServiceRaw = {
 export const services: ServiceRaw[] = [
   service,
   leverageService,
+  vaultsService,
   stakingService,
   airdropService,
 ];

@@ -20,6 +20,22 @@ const contract: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
+const neutral1VaultsContract: ContractRaw = {
+  name: "Neutral Vaults",
+  address: "9Fcn3Fd4d5ocrb12xCUtEvezxcjFEAyHBPfrZDiPt9Qj",
+  networkId: NetworkId.solana,
+};
+const neutral2VaultsContract: ContractRaw = {
+  name: "Neutral Vaults",
+  address: "9Fcn3Fd4d5ocrb12xCUtEvezxcjFEAyHBPfrZDiPt9Qj",
+  networkId: NetworkId.solana,
+};
+const neutral3VaultsContract: ContractRaw = {
+  name: "Neutral Vaults",
+  address: "9Fcn3Fd4d5ocrb12xCUtEvezxcjFEAyHBPfrZDiPt9Qj",
+  networkId: NetworkId.solana,
+};
+
 export const strategiesService: ServiceRaw = {
   id: `${platform.id}-strategies`,
   name: "Strategies",
@@ -27,4 +43,15 @@ export const strategiesService: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [strategiesService];
+export const vaultsService: ServiceRaw = {
+  id: `${platform.id}-vaults`,
+  name: "Vaults",
+  platformId: platform.id,
+  contractsRaw: [
+    neutral1VaultsContract,
+    neutral2VaultsContract,
+    neutral3VaultsContract,
+  ],
+};
+
+export const services: ServiceRaw[] = [strategiesService, vaultsService];
