@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "degencoinflip",
   name: "Degen Coin Flip",
-  description: "A simple game of chance where you can win or lose SOL.",
+  description:
+    "Degen Coin Flip is a provably fair gambling game where users can bet SOL on coin flip outcomes.",
   links: {
     website: "https://degencoinflip.com/",
     twitter: "https://x.com/degencoinflip",

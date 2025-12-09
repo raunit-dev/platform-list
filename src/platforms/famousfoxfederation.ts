@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "famousfoxfederation",
   name: "Famous Fox Federation",
+  description:
+    "Famous Fox Federation is a 7,777 NFT collection with staking for FOXY rewards, missions, breeding mechanics, and DAO governance.",
   links: {
     website: "https://famousfoxes.com",
     discord: "https://discord.com/invite/famousfoxes",

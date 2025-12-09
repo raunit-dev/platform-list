@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "save",
   name: "Save",
   description:
-    "Solend is an algorithmic, decentralized protocol for lending and borrowing on Solana. ",
+    "Save (formerly Solend) is a decentralized lending and borrowing protocol with isolated pools and permissionless market creation.",
   defiLlamaId: "save",
   tags: ["dapp"],
   links: {

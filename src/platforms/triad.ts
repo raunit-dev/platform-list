@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "triad",
   name: "Triad",
   description:
-    "Prediction markets on Solana. Trade politics, crypto, sports & culture.",
+    "Triad is a prediction markets platform for trading politics, crypto, sports & culture.",
   tags: ["dapp"],
   links: {
     website: "https://app.triadfi.co/",

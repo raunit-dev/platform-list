@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "photon",
   name: "Photon",
   description:
-    "Photon is a decentralized exchange (DEX) on Solana, offering a user-friendly interface for trading various tokens.",
+    "Photon is a trading terminal offering fast token swaps with advanced trading features for memecoins and new launches.",
   links: {
     website: "https://photon-sol.tinyastro.io/",
     twitter: "https://x.com/tradewithPhoton",

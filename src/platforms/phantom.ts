@@ -7,6 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://phantom.com/",
     twitter: "https://x.com/phantom",
+    github: "https://github.com/phantom",
     documentation: "https://phantom.com/learn/guides",
   },
   tags: ["wallet"],

@@ -3,10 +3,12 @@ export const platform: PlatformRaw = {
   id: "gauntlet",
   name: "Gauntlet",
   description:
-    "Economic modeling for crypto. Research, optimization, and risk management for DEX, Lending, Perpetuals, (Re)staking, Stablecoins, and Ecosystems",
+    "Gauntlet is a crypto risk management platform providing simulation-based risk assessment, parameter optimization, and vault curation for DeFi protocols.",
+  defiLlamaId: "gauntlet",
   links: {
     website: "https://www.gauntlet.xyz/",
     twitter: "https://twitter.com/gauntlet_xyz",
+    github: "https://github.com/gauntlet-networks",
   },
   tags: ["tool"],
 };

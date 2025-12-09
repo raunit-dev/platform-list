@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "citrus",
   name: "Citrus",
   description:
-    "Solana's most feature packed and friendly NFT lending platform, brought to you by the Famous Fox Federation.",
+    "Citrus is an NFT lending platform by Famous Fox Federation, enabling users to borrow SOL against NFT collateral or lend to earn yield.",
   defiLlamaId: "citrus",
   links: {
     website: "https://citrus.famousfoxes.com/",

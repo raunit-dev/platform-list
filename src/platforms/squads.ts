@@ -2,9 +2,12 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "squads",
   name: "Squads",
+  description:
+    "Squads is a multisig and smart account protocol for secure team treasury management, program upgrades, and on-chain governance.",
   tags: ["tool", "dapp"],
   links: {
     website: "https://squads.so/",
+    discord: "https://discord.gg/squads",
     twitter: "https://x.com/SquadsProtocol",
     github: "https://github.com/Squads-Protocol",
     documentation: "https://docs.squads.so/main/basics/welcome-to-squads",

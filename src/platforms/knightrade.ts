@@ -2,10 +2,12 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "knightrade",
   name: "Knightrade",
+  description:
+    "Knightrade is a DeFi platform offering yield optimization strategies and trading services.",
   defiLlamaId: "knightrade",
   links: {
     website: "https://app.knightrade.io/",
-    discord: "https://discord.gg/TKMrEJzCM4 ",
+    discord: "https://discord.gg/TKMrEJzCM4",
     telegram: "https://t.me/knightrade",
     twitter: "https://x.com/KnightradeTeam",
     documentation: "https://doc.knightrade.io/",

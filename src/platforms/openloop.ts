@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "openloop",
   name: "OpenLoop",
+  description:
+    "OpenLoop is a DePIN network enabling users to earn rewards by running Sentry Nodes and contributing bandwidth.",
   links: {
     twitter: "https://x.com/openloop_so",
     website: "https://openloop.so/",

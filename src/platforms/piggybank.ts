@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "piggybank",
   name: "Piggybank",
+  description:
+    "Piggybank is a DeFi platform offering vaults for xStocks and yield optimization strategies.",
   tags: ["dapp", "lst"],
   links: {
     website: "https://www.piggybank.fi/",

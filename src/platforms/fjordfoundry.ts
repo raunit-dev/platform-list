@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "fjordfoundry",
   name: "Fjord Foundry",
+  description:
+    "Fjord Foundry is a token launch platform using Liquidity Bootstrapping Pools (LBPs) for fair price discovery across multiple chains including Solana.",
   links: {
     website: "https://www.fjordfoundry.com/",
     discord: "https://discord.com/invite/fjordfoundry",

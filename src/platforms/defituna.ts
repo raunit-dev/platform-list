@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "defituna",
   name: "DeFiTuna",
-  description: "A comprehensive toolkit for Liquidity Providers",
+  description:
+    "DeFiTuna is a DeFi platform offering leveraged concentrated liquidity positions up to 5x, lending pools, and an AMM with native limit orders.",
   links: {
     website: "https://defituna.com",
     discord: "https://discord.gg/vNWwVWbnzs",

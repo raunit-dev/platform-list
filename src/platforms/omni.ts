@@ -2,12 +2,14 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "omni",
   name: "Omni Bridge",
+  description:
+    "Omni Bridge is a cross-chain bridge by NEAR Protocol enabling asset transfers between Solana and other chains through chain abstraction.",
   links: {
     documentation:
       "https://docs.near.org/chain-abstraction/omnibridge/overview",
     website: "https://docs.near.org/chain-abstraction/omnibridge/overview",
   },
-  tags: ["dapp"],
+  tags: ["bridge", "dapp"],
 };
 const bridge: ContractRaw = {
   name: `Bridge`,

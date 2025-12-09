@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "bonkrewards",
   name: "Bonk Rewards",
-  description: "Social layer and community meme coin of Solana.",
+  description:
+    "Bonk Rewards is the staking and utility platform for BONK, the community meme coin of Solana, offering staking rewards, swaps, and DAO governance.",
   defiLlamaId: "bonkswap",
   tags: ["memecoin", "dapp"],
   links: {

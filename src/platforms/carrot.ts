@@ -2,10 +2,14 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "carrot",
   name: "Carrot",
+  description:
+    "Carrot is a yield-bearing stablecoin protocol that mints CRT tokens backed by yield-generating DeFi strategies.",
   defiLlamaId: "carrot",
   links: {
     website: "https://deficarrot.com/",
     twitter: "https://x.com/DeFiCarrot",
+    discord: "https://discord.gg/carrot",
+    documentation: "https://docs.deficarrot.com/",
   },
   tokens: ["CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s"],
   tags: ["stablecoin", "dapp"],

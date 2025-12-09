@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "tensor",
   name: "Tensor",
-  description: "Solana's Leading NFT Marketplace",
+  description:
+    "Tensor is an NFT marketplace offering trading, bidding, AMM pools, and compressed NFT support with advanced features for professional traders.",
   tags: ["tool", "nft-marketplace", "dapp"],
   links: {
     website: "https://www.tensor.trade/",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "circle",
   name: "Circle",
   description:
-    "Move money faster, safer with USDC, the digital dollar made for businesses and developers around the world.",
+    "Circle is the issuer of USDC stablecoin and operates CCTP (Cross-Chain Transfer Protocol) for seamless USDC transfers across blockchains including Solana.",
   links: {
     website: "https://www.circle.com/",
     discord: "https://discord.com/invite/buildoncircle",

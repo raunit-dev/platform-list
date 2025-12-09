@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "defiland",
   name: "Defiland",
   description:
-    "Multi-chain agriculture-simulation game created to gamify Decentralized Finance",
+    "DeFi Land is an agriculture-simulation game that gamifies decentralized finance with farming, crafting, and trading mechanics.",
   links: {
     website: "https://defiland.app/",
     discord: "https://discord.gg/defiland",

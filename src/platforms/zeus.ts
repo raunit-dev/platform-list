@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@zeus-network",
   },
   tokens: ["ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq"],
-  description: "First Multichain Layer on Solana.",
+  description: "Zeus is a multichain layer enabling cross-chain interoperability.",
   tags: ["dapp"],
 };
 

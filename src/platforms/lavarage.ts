@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "lavarage",
   name: "Lavarage",
-  description: "Lavarage is a decentralized leverage trading platform.",
+  description:
+    "Lavarage is a permissionless spot margin trading platform that enables leveraged trading for any token by sourcing liquidity from DEXs.",
   defiLlamaId: "lavarage",
   links: {
     website: "https://app.lavarage.xyz/",

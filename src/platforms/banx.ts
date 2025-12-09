@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "banx",
   name: "Banx",
   description:
-    "Borrow, Lend, Multiply, Hedge Solana tokens and NFTs with no expiration, no price liquidation.",
+    "Banx is a DeFi lending protocol for borrowing and lending against tokens and NFTs with no expiration and no price-based liquidation.",
   defiLlamaId: "banx",
   tags: ["dapp"],
   links: {

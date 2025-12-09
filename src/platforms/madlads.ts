@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "madlads",
   name: "MadLads",
+  description:
+    "Mad Lads is a 10,000-piece NFT collection created by Backpack featuring executable NFTs (xNFTs) with soul-bound inventories, pioneering NFT innovation.",
   links: {
     website: "https://www.madlads.com/",
     twitter: "https://x.com/MadLads",

@@ -2,7 +2,9 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "nodepay",
   name: "Nodepay",
-  tags: ["tool"],
+  description:
+    "Nodepay is a DePIN network enabling users to earn rewards by sharing unused bandwidth for AI training and data infrastructure.",
+  tags: ["tool", "depin"],
   links: {
     website: "https://nodepay.ai/",
     discord: "https://discord.com/invite/nodepay",

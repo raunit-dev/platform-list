@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "backwoods",
   name: "Backwoods",
   description:
-    "A meticulously crafted roguelite game on Solana - fun, rewarding and utterly addictive",
+    "Backwoods is a roguelite game featuring procedural dungeons and on-chain rewards.",
   links: {
     website: "https://backwoods.gg/",
     twitter: "https://x.com/TheBackwoodsSol",

@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "maestro",
   name: "Maestro",
+  description:
+    "Maestro is a Telegram trading bot for Solana enabling users to snipe, trade, and manage tokens directly from chat.",
   links: {
     website: "https://maestrobots.com/",
     twitter: "https://x.com/MaestroBots",

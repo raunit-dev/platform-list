@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "drift",
   name: "Drift",
   description:
-    "Drift brings on-chain, cross-margined perpetual futures to Solana. Making futures DEXs the best way to trade.",
+    "Drift brings on-chain, cross-margined perpetual futures. Making futures DEXs the best way to trade.",
   defiLlamaId: "parent#drift",
   tags: ["dapp"],
   links: {

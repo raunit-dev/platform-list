@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "perena",
   name: "Perena",
   description:
-    "Perena is building the infrastructure for stablecoins on Solana, starting with a novel AMM, Numéraire.",
+    "Perena is a stablecoin infrastructure protocol featuring Numéraire, an AMM designed for efficient stablecoin swaps with minimal slippage.",
   defiLlamaId: "perena",
   links: {
     website: "https://perena.org/",

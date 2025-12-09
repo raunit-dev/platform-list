@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "kamino",
   name: "Kamino",
-  description: "Borrow, Earn and Leverage on Solana",
+  description:
+    "Kamino is a DeFi protocol offering lending, borrowing, automated liquidity vaults, and leverage products.",
   defiLlamaId: "parent#kamino-finance",
   links: {
     website: "https://kamino.finance/",

@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "hubble",
   name: "Hubble",
+  description:
+    "Hubble Protocol was a DeFi platform that enabled users to borrow USDH stablecoin against crypto collateral with low interest rates.",
   tags: ["dapp"],
   isDeprecated: true,
   links: {

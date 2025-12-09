@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "layer3",
   name: "Layer3",
-  description: "Powering the next generation of consumer attention.",
+  description:
+    "Layer3 is a Web3 quest and rewards platform enabling projects to distribute tokens and engage users across multiple chains including Solana.",
   links: {
     website: "https://app.layer3.xyz/",
     discord: "https://discord.gg/layer3",

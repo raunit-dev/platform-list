@@ -3,6 +3,8 @@ import { NetworkId, PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "hadeswap",
   name: "Hadeswap",
+  description:
+    "Hadeswap was an NFT AMM marketplace enabling instant NFT trading with liquidity pools.",
   links: {
     website: "https://www.hadeswap.com/",
     twitter: "https://x.com/hadeswap/",

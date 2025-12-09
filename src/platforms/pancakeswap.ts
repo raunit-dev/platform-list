@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "pancakeswap",
   name: "PancakeSwap",
-  description: "Trade, earn, and own crypto on the all-in-one multichain DEX.",
+  description:
+    "PancakeSwap is a multi-chain DEX offering token swaps, liquidity provision, and yield farming across multiple networks.",
   links: {
     website: "https://solana.pancakeswap.finance/",
     twitter: "https://twitter.com/pancakeswap",

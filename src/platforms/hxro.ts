@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "hxro",
   name: "Hxro",
   description:
-    "Hxro Network protocols power a diverse set of community-built derivatives trading and betting applications on Solana. The network aims to create the most liquid markets for Solana-based assets while enabling its ecosystem to participate in the value it accrues.",
+    "Hxro Network is a derivatives infrastructure layer providing protocols for perpetuals, options, and parimutuel betting applications.",
   defiLlamaId: "hxro-network",
   tags: ["dapp"],
   links: {

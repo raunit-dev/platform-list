@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "godl",
   name: "GODL",
+  description:
+    "GODL is a mineable token using proof-of-work mechanics, allowing users to mine tokens through computational puzzles.",
   tags: ["tool"],
   links: {
     website: "https://www.godl.supply/",

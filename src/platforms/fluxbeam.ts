@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "fluxbeam",
   name: "Flux Beam",
-  description: "Solana DEX, supporting innovation and Token-2022",
+  description:
+    "FluxBeam is a DEX with native support for Token-2022 standard, offering token swaps and liquidity pools.",
   defiLlamaId: "fluxbeam",
   links: {
     website: "https://fluxbeam.xyz/",

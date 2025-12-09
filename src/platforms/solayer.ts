@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   id: "solayer",
   name: "Solayer",
   description:
-    "Solayer is the restaking protocol on Solana, securing both endogenous AVS (dApps) through stake-weighted quality of service and exogenous AVS via Solana-based POS primitives",
+    "Solayer is a restaking protocol securing both endogenous AVS (dApps) through stake-weighted quality of service and exogenous AVS via POS primitives.",
   defiLlamaId: "parent#solayer",
   tags: ["dapp", "lst"],
   links: {

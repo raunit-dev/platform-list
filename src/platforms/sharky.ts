@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "sharky",
   name: "Sharky",
   description:
-    "Sharky is the first escrowless NFT lending and borrowing protocol on Solana. Users can borrow SOL against their NFTs or Lend SOL and earn a high % APY.",
+    "Sharky is an escrowless NFT lending and borrowing protocol where users can borrow SOL against NFTs or lend SOL to earn yield.",
   defiLlamaId: "sharky",
   tags: ["dapp"],
   links: {

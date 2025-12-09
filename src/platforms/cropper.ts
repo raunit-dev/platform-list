@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
   },
   tokens: ["DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz"],
   description:
-    "Cropper is an decentralized exchange built on the Solana blockchain.",
+    "Cropper was a decentralized exchange offering AMM pools and concentrated liquidity (CLMM) for token trading.",
   tags: ["dapp"],
   isDeprecated: true,
 };

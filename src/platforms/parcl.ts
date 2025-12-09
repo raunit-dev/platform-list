@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "parcl",
   name: "Parcl",
-  description: "Making investing in real estate faster, simpler, and smarter. ",
+  description:
+    "Parcl is a decentralized real estate trading protocol that enables users to trade perpetual contracts on real estate price indices.",
   defiLlamaId: "parent#parcl",
   links: {
     website: "https://app.parcl.co/",

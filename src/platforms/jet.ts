@@ -3,6 +3,8 @@ import { NetworkId, PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "jet",
   name: "Jet",
+  description:
+    "Jet Protocol was a lending and borrowing platform with margin trading capabilities.",
   links: {
     website: "https://jetprotocol.substack.com/",
     twitter: "https://x.com/jetprotocol",

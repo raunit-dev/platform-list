@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "zeta",
   name: "Zeta",
-  description: "Zeta Markets is the premier derivatives protocol on Solana.",
+  description:
+    "Zeta Markets is a derivatives protocol offering perpetual futures trading with cross-margin and portfolio margining.",
   defiLlamaId: "zeta",
   links: {
     website: "https://www.zeta.markets/",

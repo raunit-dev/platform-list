@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "picasso",
   name: "Picasso",
   description:
-    "Picasso L1 Protocol enables secure bridging and multi-asset restaking through cross-chain Inter-Blockchain-Communication (IBC).",
+    "Picasso was a cross-chain protocol enabling IBC bridging and multi-asset restaking between Solana and Cosmos ecosystems.",
   tags: ["dapp", "lst"],
   links: {
     website: "https://www.picasso.network/",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "wormhole",
   name: "Wormhole",
   description:
-    "Future-proof, permissionless tooling to empower multichain builders",
+    "Wormhole is a cross-chain messaging protocol enabling asset and data transfers between Solana and over 30 other blockchains.",
   links: {
     website: "https://w.wormhole.com/",
     discord: "https://discord.com/invite/wormholecrypto",

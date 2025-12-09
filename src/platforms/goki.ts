@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Goki",
   tags: ["tool", "dapp"],
   description:
-    "Goki is a Multisig tool that allows users to create and manage multisig wallets on Solana.",
+    "Goki is a Multisig tool that allows users to create and manage multisig wallets.",
   links: {
     website: "https://goki.so/",
     twitter: "https://x.com/GokiProtocol",

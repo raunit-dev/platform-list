@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "exponent",
   name: "Exponent",
   description:
-    "Building Solana's DeFi yield exchange — Choose between fixed or leveraged yields.",
+    "Exponent is a yield exchange allowing users to choose between fixed or leveraged DeFi yields.",
   defiLlamaId: "exponent",
   links: {
     website: "https://www.exponent.finance",

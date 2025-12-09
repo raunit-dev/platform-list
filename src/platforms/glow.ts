@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "glow",
   name: "Glow",
+  description:
+    "Glow Finance is a DeFi protocol offering lending, borrowing, and yield optimization strategies.",
   tags: ["dapp"],
   links: {
     website: "https://app.glowfinance.xyz/",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "realms",
   name: "Realms",
   description:
-    "The home for on-chain communities in the Solana ecosystem. Helping ~3K Web3 organizations and their members thrive.",
+    "Realms is a DAO governance platform that enables organizations to create proposals, vote, and manage treasuries using SPL Governance.",
   defiLlamaId: "spl-governance",
   links: {
     website: "https://app.realms.today/",

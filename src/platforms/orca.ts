@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "orca",
   name: "Orca",
   description:
-    "Orca is the go-to place to trade tokens and provide liquidity on Solana",
+    "Orca is an AMM and concentrated liquidity DEX offering token swaps, Whirlpools for capital-efficient liquidity provision, and yield farming.",
   defiLlamaId: "orca",
   links: {
     website: "https://www.orca.so/",

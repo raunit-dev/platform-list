@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "pluto",
   name: "Pluto",
-  description: "Leveraged Yield Machine on Solana",
+  description:
+    "Pluto is a leveraged yield protocol enabling users to multiply their yield exposure through automated strategies.",
   defiLlamaId: "pluto",
   tags: ["dapp"],
   links: {

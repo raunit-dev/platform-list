@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "flash",
   name: "FlashTrade",
-  description: "Trade Perpetuals with instant fills and on demand liquidity.",
+  description:
+    "FlashTrade is a perpetuals DEX offering instant order fills and on-demand liquidity for leveraged trading.",
   defiLlamaId: "flashtrade",
   links: {
     website: "https://flash.trade/",

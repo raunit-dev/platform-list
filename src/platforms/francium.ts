@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "francium",
   name: "Francium",
   description:
-    "Francium is a DeFi yield strategy Platform on Solana, providing leveraged/hedged farming, DeFi strategies & on-chain trading strategies.",
+    "Francium is a DeFi yield strategy platform providing leveraged/hedged farming, DeFi strategies & on-chain trading strategies.",
   defiLlamaId: "francium",
   isDeprecated: true,
   links: {

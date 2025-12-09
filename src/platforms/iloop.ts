@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "iloop",
   name: "ILoop",
-  description: "The first AI-optimized Vault for LST and Defi on Solana",
+  description:
+    "ILoop is an AI-optimized vault platform for automated LST and DeFi yield strategies.",
   defiLlamaId: "iloop",
   links: {
     website: "https://app.iloop.finance/",

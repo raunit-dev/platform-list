@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "oreblue",
   name: "ORE Blue",
+  description:
+    "ORE Blue is a proof-of-work mining platform, a variant of the ORE mining ecosystem.",
   tags: ["tool"],
   links: {
     website: "https://ore.blue/",

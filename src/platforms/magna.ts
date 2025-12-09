@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "magna",
   name: "Magna",
   description:
-    "Manage your token cap table, automate on-or-off chain vesting, account for tax deductions, execute airdrops, distribute conditional grants, utilize dynamic custody solutions and onboard in under a day.",
+    "Magna is a token management platform for cap table management, vesting automation, airdrops, and custody solutions across multiple chains including Solana.",
   defiLlamaId: "adrastea",
   tags: ["tool", "dapp"],
   links: {

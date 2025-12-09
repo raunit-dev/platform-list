@@ -2,9 +2,12 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "banana-gun",
   name: "Banana Gun",
+  description:
+    "Banana Gun is a Telegram-based trading bot for sniping and trading tokens on Ethereum, Solana, Base and Blast, featuring anti-rug protection and MEV resistance.",
   links: {
-    website: "http://bananagun.io/",
+    website: "https://bananagun.io/",
     twitter: "https://x.com/BananaGunBot",
+    discord: "https://discord.gg/bananagun",
     documentation: "https://docs.bananagun.io/",
   },
   tags: ["tool"],

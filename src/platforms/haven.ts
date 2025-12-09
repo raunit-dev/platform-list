@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "haven",
   name: "Haven",
+  description:
+    "Haven is an automated leverage management platform powered by Solauto for self-rebalancing positions.",
   tags: ["dapp"],
   links: {
     website: "https://haven.trade/",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "drip",
   name: "Drip Haus",
   description:
-    "The Collectibles Platform. Collect, create, and earn on crypto's #1 content app.",
+    "Drip Haus is a digital collectibles platform where creators distribute free NFTs to subscribers and earn from secondary sales.",
   links: {
     website: "https://drip.haus/",
     twitter: "https://x.com/drip_haus",

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   id: "jupiter-exchange",
   name: "Jupiter",
   description:
-    "The best decentralized liquidity platform, largest DAO & best community in crypto.",
+    "Jupiter is a DEX aggregator that routes trades across multiple liquidity pools to find optimal swap prices, also offering perpetuals, DCA, and limit orders.",
   defiLlamaId: "parent#jupiter",
   links: {
     website: "https://jup.ag/",

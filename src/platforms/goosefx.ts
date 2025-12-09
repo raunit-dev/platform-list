@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "goosefx",
   name: "GooseFX",
   description:
-    "The best place to earn and farm yield on your assets with our AMMs. Simple, fast, and efficient.  ",
+    "GooseFX is a DeFi platform offering single-sided and dual-sided liquidity pools for yield farming.",
   defiLlamaId: "goosefx",
   links: {
     website: "https://app.goosefx.io/",

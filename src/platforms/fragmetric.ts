@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "fragmetric",
   name: "Fragmetric",
   description:
-    "Fragmetric is a native liquid restaking protocol on Solana that aims to improve the economic potential and security of the Solana ecosystem.",
+    "Fragmetric is a liquid restaking protocol enabling users to restake SOL for enhanced yields while maintaining liquidity.",
   defiLlamaId: "fragmetric",
   tags: ["dapp", "lst"],
   links: {

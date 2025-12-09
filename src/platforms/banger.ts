@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "banger",
   name: "Banger",
-  description: "Launch and trade tweetcoins.",
+  description:
+    "Banger is a SocialFi platform for launching and trading tokens tied to tweets (tweetcoins).",
   tags: ["social", "dapp"],
   links: {
     website: "https://www.banger.lol/",

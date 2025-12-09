@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "lince",
   name: "Lince",
   description:
-    "Earn with an investment strategy tailored to your risk profile.",
+    "Lince is a DeFi platform offering investment strategies tailored to user risk profiles through lending vaults.",
   links: {
     website: "https://lince.finance/",
     twitter: "https://x.com/LinceFinance",

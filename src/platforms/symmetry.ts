@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "symmetry",
   name: "Symmetry",
-  description: "Solana's on-chain asset management infrastructure layer",
+  description:
+    "Symmetry is an on-chain asset management protocol enabling creation and management of token baskets, indices, and actively managed funds.",
   defiLlamaId: "symmetry",
   links: {
     website: "https://www.symmetry.fi/",

@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "alldomains",
   name: "AllDomains",
-  description: "Web3 Identity for Everyone",
+  description:
+    "AllDomains is a Web3 domain name service that enables users to create, register, and trade customizable domain names and top-level domains as NFTs.",
   tags: ["tool", "dapp"],
   links: {
     website: "https://alldomains.id/",

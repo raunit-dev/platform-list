@@ -2,8 +2,10 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "pumpfun",
   name: "Pumpfun",
+  description:
+    "Pump.fun is a memecoin launchpad that enables anyone to create and trade tokens with bonding curve mechanics and automatic liquidity migration to Raydium.",
   defiLlamaId: "pumpfun",
-  tags: ["dapp"],
+  tags: ["memecoin", "launchpad", "dapp"],
   links: {
     website: "https://pump.fun/board",
     telegram: "https://t.me/pumpfunsupport",

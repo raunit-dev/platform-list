@@ -3,6 +3,8 @@ import { NetworkId, PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "katana",
   name: "Katana",
+  description:
+    "Katana was a yield generation protocol offering automated options strategies including covered calls and put selling.",
   links: {
     website: "https://katana.so/",
   },

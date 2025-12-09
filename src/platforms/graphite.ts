@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "graphite",
   name: "Graphite Protocol",
+  description:
+    "Graphite Protocol is a staking platform associated with Taiyo Robotics, offering token and NFT staking services.",
   links: {
     website: "https://gpstaking.taiyorobotics.com/",
     twitter: "https://x.com/GraphiteProto",

@@ -2,9 +2,11 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "mintech",
   name: "Mintech",
+  description:
+    "Mintech is a Telegram trading bot for Solana offering automated token sniping and trading features.",
   links: {
     website: "https://www.mintechbots.com/",
-    discord: "https://t.co/f9eKBmczlm",
+    discord: "https://discord.gg/mintech",
     twitter: "https://x.com/mintechbots",
     documentation:
       "https://mintechbots.gitbook.io/mintech-guide/getting-started/welcome",

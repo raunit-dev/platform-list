@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "bio",
   name: "Bio",
   description:
-    "The Bio protocol is DeSci’s new financial layer, engineered to commercialize the best science, faster.",
+    "Bio Protocol is a DeSci platform enabling fundraising and curation for scientific research commercialization.",
   tags: ["desci", "dapp"],
   links: {
     website: "https://www.bio.xyz/",

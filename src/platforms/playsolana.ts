@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "playsolana",
   name: "PlaySolana",
+  description:
+    "PlaySolana is a gaming platform offering play-to-earn games and NFT rewards.",
   tags: ["gaming", "dapp"],
   links: {
     website: "https://www.playsolana.com/",

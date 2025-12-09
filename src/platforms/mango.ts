@@ -2,14 +2,15 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "mango",
   name: "Mango",
-  description: "Perps and spot trading on Solana",
+  description:
+    "Mango Markets is a decentralized trading platform that offered perpetuals, spot trading, and lending with cross-collateralization.",
   defiLlamaId: "parent#mango-markets",
   isDeprecated: true,
   links: {
     website: "https://mango.markets/",
     discord: "https://discord.com/invite/pcSkP3yJMU",
     twitter: "https://twitter.com/mangomarkets",
-    github: "https://discord.gg/pcSkP3yJMUs",
+    github: "https://github.com/blockworks-foundation",
   },
   tokens: ["MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"],
   tags: ["dapp"],

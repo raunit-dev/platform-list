@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "meteora",
   name: "Meteora",
-  description: "Building the most dynamic liquidity protocols in DeFi.",
+  description:
+    "Meteora is a DeFi protocol offering dynamic liquidity pools (DLMM), vaults, stable swaps, and token launch infrastructure.",
   defiLlamaId: "parent#meteora",
   links: {
     website: "https://meteora.ag/",

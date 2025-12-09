@@ -3,7 +3,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "melee",
   name: "Melee",
-  description: "The only prediction market with 100x+ returns.",
+  description:
+    "Melee is a prediction market platform offering leveraged bets on real-world events with high potential returns.",
   tags: ["dapp"],
   links: {
     website: "https://alpha.melee.markets/",

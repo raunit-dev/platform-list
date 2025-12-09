@@ -3,7 +3,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "mooncake",
   name: "Mooncake",
-  description: "Permissionless Tokenized Perp Market",
+  description:
+    "Mooncake is a permissionless tokenized perpetual market offering leveraged tokens for long and short exposure.",
   links: {
     website: "https://app.mooncake.fi/",
     documentation: "https://docs.mooncake.fi/",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "switchboard",
   name: "Switchboard",
   description:
-    "Switchboard is a permissionless oracle network that seamlessly connects dapps to real-world data.",
+    "Switchboard is a permissionless oracle network that connects dApps to real-world data feeds, randomness, and off-chain computation across multiple blockchains.",
   links: {
     website: "https://switchboard.xyz/",
     discord: "https://discord.gg/switchboardxyz",

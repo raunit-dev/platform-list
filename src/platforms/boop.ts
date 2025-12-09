@@ -2,10 +2,13 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "boop",
   name: "Boop",
+  description:
+    "Boop is a memecoin launchpad that gamifies token creation through community-driven dynamics, allowing users to launch tokens and earn rewards through staking.",
   tags: ["memecoin", "launchpad", "dapp"],
   links: {
     website: "https://boop.fun/",
-    twitter: "hhttps://t.me/boopdotfun",
+    telegram: "https://t.me/boopdotfun",
+    twitter: "https://x.com/boopdotfun",
   },
   tokens: ["boopkpWqe68MSxLqBGogs8ZbUDN4GXaLhFwNP7mpP1i"],
 };

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "staratlas",
   name: "Star Atlas",
   description:
-    "A grand strategy game of space exploration, territorial conquest, political domination, and more.",
+    "Star Atlas is a blockchain-based space exploration and strategy game featuring NFT ships, territorial conquest, and a player-driven economy.",
   tags: ["gaming"],
   links: {
     website: "https://staratlas.com/",

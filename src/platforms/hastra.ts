@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "hastra",
   name: "Hastra",
+  description:
+    "Hastra is a DeFi protocol offering vault-based staking and minting services.",
   tags: ["dapp"],
   links: {
     website: "https://www.hastra.io/",

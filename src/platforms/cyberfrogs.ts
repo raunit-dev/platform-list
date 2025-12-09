@@ -7,7 +7,8 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/CyberFrogsNFT",
     discord: "https://discord.com/invite/cyberfrogs",
   },
-  description: "Leading NFT Development, Innovation & Crypto Trading Tools",
+  description:
+    "CyberFrogs is an NFT collection featuring staking, trading tools, and the AutoThor automated trading system.",
   tags: ["nft-collection"],
 };
 

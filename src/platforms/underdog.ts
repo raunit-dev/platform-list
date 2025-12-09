@@ -2,9 +2,13 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "underdog",
   name: "Underdog",
+  description:
+    "Underdog is an NFT infrastructure platform that provides APIs and tools for minting, managing, and distributing compressed and dynamic NFTs.",
   links: {
     website: "https://mint.underdogprotocol.com/",
     twitter: "https://x.com/BackAnUnderdog",
+    github: "https://github.com/UnderdogProtocol",
+    documentation: "https://docs.underdogprotocol.com/",
   },
   tags: ["tool", "dapp"],
 };

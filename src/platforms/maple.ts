@@ -2,9 +2,13 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "maple",
   name: "Maple",
+  description:
+    "Maple Finance is an institutional lending protocol offering fixed-income yield products and undercollateralized loans across multiple chains including Solana.",
   defiLlamaId: "parent#maple-finance",
   links: {
     website: "https://www.maple.finance/",
+    twitter: "https://x.com/maboroshibros",
+    discord: "https://discord.gg/maple",
   },
   tags: ["dapp"],
 };

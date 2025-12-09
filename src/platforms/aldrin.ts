@@ -3,6 +3,8 @@ import { NetworkId, PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "aldrin",
   name: "Aldrin",
+  description:
+    "Aldrin was a DEX that offered AMM pools, limit orders, and trading analytics with a centralized orderbook.",
   links: {
     website: "https://x.com/Aldrin_Exchange",
     twitter: "https://x.com/Aldrin_Exchange",

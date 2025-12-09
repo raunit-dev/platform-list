@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "adrena",
   name: "Adrena",
   description:
-    "Adrena is a decentralized protocol for borrowing and lending on Solana.",
+    "Adrena is a decentralized perpetuals DEX offering up to 100x leverage with zero price impact trades.",
   defiLlamaId: "adrena-protocol",
   tags: ["dapp"],
   links: {

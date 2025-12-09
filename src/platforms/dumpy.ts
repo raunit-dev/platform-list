@@ -2,8 +2,11 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "dumpy",
   name: "Dumpy",
+  description:
+    "Dumpy.fun is a platform by Save Finance enabling users to short memecoins with collateral-backed positions and leverage.",
   links: {
     website: "https://dumpy.fun/",
+    twitter: "https://x.com/dumpyfun",
   },
   tags: ["dapp", "memecoin"],
 };

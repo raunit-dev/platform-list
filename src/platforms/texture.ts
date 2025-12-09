@@ -2,11 +2,14 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "texture",
   name: "Texture",
-  description: "P2P Loans",
+  description:
+    "Texture is a peer-to-peer token lending protocol that enables users to borrow and lend tokens directly without intermediaries or liquidation risk.",
   links: {
     website: "https://texture.finance/",
     twitter: "https://twitter.com/texture_fi",
     discord: "https://discord.gg/6YvjpXzsqp",
+    github: "https://github.com/texture-finance",
+    documentation: "https://texture.gitbook.io/texture",
   },
   tags: ["dapp"],
 };

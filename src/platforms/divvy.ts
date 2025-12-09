@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "divvy",
   name: "Divvy",
   description:
-    "Frictionless betting experience powered by Solana with no signups or deposits",
+    "Divvy is a sports betting platform offering frictionless wagering with no signups or deposits required.",
   defiLlamaId: "divvy.bet",
   links: {
     website: "https://app.divvy.bet/",

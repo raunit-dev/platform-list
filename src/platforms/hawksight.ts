@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "hawksight",
   name: "HawkFi",
   description:
-    "Leading analytics & automation platform for on-chain market makers to get the smartest yield on Solana memecoins and altcoins.",
+    "HawkFi is an analytics and automation platform for liquidity providers, offering yield optimization strategies for concentrated liquidity positions.",
   defiLlamaId: "hawkfi",
   links: {
     website: "https://www.hawkfi.ag/",

@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "solincinerator",
   name: "Sol Incinerator",
-  description: "Burn any unwanted NFTs or tokens and reclaim the rent",
+  description:
+    "Sol Incinerator is a utility tool for burning unwanted NFTs, tokens, and empty accounts to reclaim SOL rent deposits.",
   links: {
     website: "https://sol-incinerator.com/",
     twitter: "https://x.com/solincinerator",

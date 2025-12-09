@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "ratex",
   name: "RateX",
   description:
-    "RateX Protocol is a decentralized exchange (DEX) built on Solana, specializing in leveraged yield trading.",
+    "RateX Protocol is a decentralized exchange (DEX) specializing in leveraged yield trading.",
   defiLlamaId: "ratex",
   links: {
     website: "https://rate-x.io/",

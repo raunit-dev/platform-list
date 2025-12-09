@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "oro",
   name: "Oro",
+  description:
+    "Oro is a DeFi protocol offering staking and yield generation services.",
   links: {
     website: "https://app.oro.finance/",
     twitter: "https://x.com/orogoldapp",

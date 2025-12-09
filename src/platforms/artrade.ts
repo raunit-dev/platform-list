@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "artrade",
   name: "Artrade",
-  description: "Sales club for art & luxury items",
+  description:
+    "Artrade was a marketplace for trading art and luxury items with on-chain verification.",
   links: {
     website: "https://artrade.app/",
     twitter: "https://x.com/ArtradeApp",

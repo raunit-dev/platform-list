@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "degods",
   name: "DeGods",
+  description:
+    "DeGods is a collection of 10,000 unique avatar NFTs and a global community of creators and innovators, integrated with the DUST and DEGOD token ecosystem.",
   links: {
     twitter: "https://x.com/DeGodsNFT",
     website: "https://degods.com/",

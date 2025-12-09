@@ -3,6 +3,8 @@ import { NetworkId, PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "larix",
   name: "Larix",
+  description:
+    "Larix was a lending protocol offering money market services with variable interest rates.",
   links: {
     website: "https://projectlarix.com/",
     twitter: "http://x.com/ProjectLarix",

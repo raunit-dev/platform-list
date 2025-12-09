@@ -2,14 +2,15 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "believe",
   name: "Believe",
-  tags: ["dapp", "social"],
+  tags: ["dapp", "social", "launchpad"],
   links: {
     website: "https://believe.app/",
     twitter: "https://x.com/believeapp",
     documentation: "https://believe.app/faqs",
   },
   description:
-    "Quickly launch tokens by replying to any tweet with @launchcoin +name to turn it into a coin.",
+    "Believe is a memecoin launchpad that allows users to create tokens via Twitter/X replies, with tokens graduating to Meteora after reaching $100k market cap.",
+  tokens: ["2FKuBk6wdXTkrRSveokJCBm37wMCfvG19bTBkP1yCpSL"],
 };
 
 export const launchService: ServiceRaw = {

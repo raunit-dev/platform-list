@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "lombard",
   name: "Lombard",
-  description: "LBTC is an institutional grade yield-bearing BTC.",
+  description:
+    "Lombard is a Bitcoin staking protocol that issues LBTC, a yield-bearing liquid Bitcoin token backed 1:1 by BTC and secured by a decentralized validator network.",
   defiLlamaId: "parent#lombard-finance",
   tags: ["dapp"],
   links: {
@@ -10,6 +11,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.lombard.finance/",
     discord: "https://discord.com/invite/2HG7G69twc",
     twitter: "https://x.com/Lombard_Finance",
+    github: "https://github.com/lombard-finance",
   },
   tokens: ["LBTCgU4b3wsFKsPwBn1rRZDx5DoFutM6RPiEt1TPDsY"],
 };

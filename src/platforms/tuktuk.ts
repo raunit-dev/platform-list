@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "tuktuk",
   name: "TukTuk",
-  description: "Schedule Tasks on Solana",
+  description: "TukTuk is a task scheduling platform for on-chain automation.",
   links: {
     website: "https://www.tuktuk.fun",
     documentation: "https://www.tuktuk.fun/docs",

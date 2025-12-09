@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "elemental",
   name: "Elemental",
   description:
-    "Solana-based crypto fund dedicated to making DeFi investing simple",
+    "Elemental is a DeFi fund providing simplified access to yield strategies and portfolio management.",
   links: {
     website: "https://elemental.fund/",
     telegram: "https://tg.elemental.fund",

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "vectis",
   name: "Vectis",
   description:
-    "Vectis is the premier platform for high-yield, low-risk opportunities on Solana, designed for both seasoned DeFi enthusiasts and newcomers.",
+    "Vectis is a platform for high-yield, low-risk opportunities, designed for both seasoned DeFi enthusiasts and newcomers.",
   defiLlamaId: "vectis-finance",
   links: {
     website: "https://app.vectis.finance/",

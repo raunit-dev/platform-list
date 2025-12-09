@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "pyth",
   name: "Pyth",
   description:
-    "Secure your smart contracts with reliable, low-latency market data from institutional sources. Build apps with high-fidelity oracle feeds designed for mission-critical systems.",
+    "Pyth Network is a decentralized oracle that delivers real-time market data from institutional sources to smart contracts across 50+ blockchains.",
   defiLlamaId: "pyth-network",
   links: {
     website: "https://pyth.network/",

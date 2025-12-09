@@ -2,6 +2,8 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "maxbid",
   name: "Maxbid Pro",
+  description:
+    "Maxbid Pro is a decentralized leverage trading platform specializing in memecoins, offering non-custodial spot margin trading via Jupiter routing.",
   links: {
     website: "https://maxbid.pro/trade",
     twitter: "https://x.com/maxbidbro",

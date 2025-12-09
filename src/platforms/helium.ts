@@ -2,11 +2,21 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "helium",
   name: "Helium",
+  description:
+    "Helium is a decentralized wireless network providing IoT (LoRaWAN) and mobile (5G/WiFi) coverage through user-operated hotspots across 80+ countries.",
   links: {
     website: "https://www.helium.com/",
+    discord: "https://discord.gg/helium",
     twitter: "https://twitter.com/helium",
+    github: "https://github.com/helium",
+    documentation: "https://docs.helium.com/",
   },
-  tags: ["tool", "dapp"],
+  tokens: [
+    "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
+    "iotEVVZLEywoTn1QdwNPddxPWszn3zFhEot3MfL9fns",
+    "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6",
+  ],
+  tags: ["depin", "dapp"],
 };
 
 const contract = {

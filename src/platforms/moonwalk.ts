@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "moonwalk",
   name: "Moonwalk",
-  description: "Gamify your Fitness Journey",
+  description:
+    "Moonwalk is a move-to-earn fitness app that rewards users with crypto for achieving step goals through gamified challenges and competitions.",
   links: {
     website: "https://app.moonwalk.fit/",
     discord: "https://discord.com/invite/jBhgHWUJ9U",

@@ -2,7 +2,8 @@ import { NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "tulip",
   name: "Tulip",
-  description: "The Efficient Solana Yield Aggregator",
+  description:
+    "Tulip Protocol is a yield aggregator that offered auto-compounding vaults, leveraged yield farming, and lending services.",
   defiLlamaId: "tulip-protocol",
   isDeprecated: true,
   tags: ["dapp"],

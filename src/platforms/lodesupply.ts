@@ -2,7 +2,8 @@ import { ContractRaw, NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "lodesupply",
   name: "LodeSupply",
-  description: "Optimized ORE version",
+  description:
+    "LodeSupply is an optimized mining platform for the ORE proof-of-work token.",
   tags: ["tool"],
   links: {
     website: "https://ore.supply/",

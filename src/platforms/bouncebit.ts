@@ -2,6 +2,9 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "bouncebit",
   name: "BounceBit",
+  description:
+    "BounceBit is a CeDeFi platform offering multi-chain institutional yield strategies for BTC, ETH, SOL, and stablecoins through centralized-decentralized hybrid finance.",
+  defiLlamaId: "bouncebit",
   tags: ["dapp"],
   links: {
     website: "https://portal.bouncebit.io",

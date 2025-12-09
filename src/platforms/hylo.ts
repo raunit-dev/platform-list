@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "hylo",
   name: "Hylo",
-  description: "Stablecoin backed by SOL and leveraged SOL",
+  description:
+    "Hylo is a stablecoin protocol issuing a dollar-pegged stablecoin backed by SOL and leveraged SOL positions.",
   links: {
     website: "https://hylo.so/",
     twitter: "https://x.com/hylo_so",

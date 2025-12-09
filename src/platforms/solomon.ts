@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "solomon",
   name: "Solomon",
-  description: "Solomon is a native synthetic dollar protocol built on Solana.",
+  description: "Solomon is a native synthetic dollar protocol.",
   defiLlamaId: "parent#solomon-usdv",
   tags: ["stablecoin", "dapp"],
   links: {

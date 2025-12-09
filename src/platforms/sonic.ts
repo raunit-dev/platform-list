@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "sonic",
   name: "Sonic",
   description:
-    "Sonic is the first atomic SVM chain designed to enable sovereign game economies on Solana. By utilizing the HyperGrid framework, Sonic offers unparalleled speed and scalability for on-chain gaming experiences.",
+    "Sonic is an atomic SVM chain built for sovereign game economies, utilizing the HyperGrid framework for high-throughput on-chain gaming.",
   links: {
     website: "https://www.sonic.game/",
     discord: "https://discord.com/invite/joinmirrorworld",

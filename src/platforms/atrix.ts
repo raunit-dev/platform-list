@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/atrixprotocol",
   },
   description:
-    "A Serum-based AMM on Solana allowing for permissionless liquidity and farming.",
+    "Atrix was a Serum-based AMM offering permissionless liquidity pools and yield farming.",
   isDeprecated: true,
 };
 

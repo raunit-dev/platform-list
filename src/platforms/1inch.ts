@@ -2,12 +2,15 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "1inch",
   name: "1inch",
+  description:
+    "1inch is a DEX aggregator that combines liquidity across multiple exchanges and chains to find optimal swap rates, offering native cross-chain swaps between Solana and EVM networks.",
   tags: ["bridge"],
   links: {
     website: "https://1inch.com/",
     discord: "https://discord.com/invite/1inch",
     twitter: "https://x.com/1inch",
     github: "https://github.com/1inch",
+    documentation: "https://docs.1inch.io/",
   },
 };
 

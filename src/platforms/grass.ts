@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "grass",
   name: "Grass",
-  description: "Get rewarded for your unused internet",
+  description:
+    "Grass is a DePIN protocol that allows users to share unused internet bandwidth for AI data collection, earning rewards through network participation.",
   links: {
     website: "https://www.grass.io/",
     discord: "https://discord.com/invite/getgrass",

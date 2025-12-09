@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "oresupply",
   name: "OreSupply",
-  description: "Proof of work on Solana.",
+  description:
+    "ORE Supply is the original proof-of-work mining protocol enabling users to mine ORE tokens using computational puzzles.",
   tags: ["tool"],
   links: {
     website: "https://ore.supply/",

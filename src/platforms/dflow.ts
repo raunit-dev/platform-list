@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "dflow",
   name: "DFlow",
-  description: "Low-latency Solana DEX aggregator",
+  description:
+    "DFlow is a low-latency DEX aggregator using on-chain data for millisecond price calculations across AMMs, CLMMs, and CLOBs.",
   links: {
     website: "https://dflow.net/",
     discord: "https://discord.gg/dflow",

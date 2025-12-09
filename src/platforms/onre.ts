@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "onre",
   name: "OnRe",
-  description: "yielding dollar asset on Solana",
+  description:
+    "OnRe is a yield-bearing stablecoin protocol offering a dollar-pegged asset with built-in yield.",
   links: {
     website: "https://www.onre.finance/",
     twitter: "https://x.com/onrefinance",

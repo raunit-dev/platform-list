@@ -2,11 +2,13 @@ import { ContractRaw, NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "helio",
   name: "MoonPay Commerce (Helio)",
+  description:
+    "MoonPay Commerce (formerly Helio) is a crypto payment infrastructure enabling merchants to accept cryptocurrency payments.",
+  tags: ["dapp"],
   links: {
     website: "https://www.hel.io/",
     twitter: "https://x.com/MoonPayCommerce",
   },
-  tags: ["dapp"],
 };
 
 const contractV2: ContractRaw = {

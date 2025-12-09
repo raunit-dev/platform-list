@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "huma",
   name: "Huma",
   description:
-    "Huma accelerates global payments with instant access to liquidity anywhere, anytime.",
+    "Huma Finance is a PayFi protocol providing instant liquidity for global payments and cross-border transactions.",
   tags: ["dapp"],
   links: {
     website: "https://huma.finance/",

@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "hedgehog",
   name: "Hedgehog Markets",
-  description: "Prediction markets on Solana",
+  description:
+    "Hedgehog Markets is a prediction markets platform for betting on real-world events and outcomes.",
   defiLlamaId: "hedgehog-markets",
   links: {
     website: "https://hedgehog.markets",

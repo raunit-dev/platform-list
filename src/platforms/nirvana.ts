@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "nirvana",
   name: "Nirvana",
   description:
-    "ANA is a partially-collateralized asset with a built-in rising floor price & renewable yield. It allows for zero liquidation risk loans in the form of the NIRV superstable token.",
+    "Nirvana was a stablecoin protocol offering ANA, a partially-collateralized asset with a rising floor price, and NIRV superstable token.",
   defiLlamaId: "parent#nirvana",
   tags: ["dapp"],
   links: {

@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "phoenix",
   name: "Phoenix",
   description:
-    "Phoenix is a decentralized limit order book on Solana, supporting markets for spot assets.",
+    "Phoenix is a decentralized limit order book supporting markets for spot assets.",
   defiLlamaId: "phoenix",
   links: {
     website: "https://www.phoenix.trade/",

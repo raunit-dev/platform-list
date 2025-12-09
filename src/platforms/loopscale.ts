@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "loopscale",
   name: "Loopscale",
   description:
-    "Loopscale is a new way to lend and borrow onchain with the best rates, any asset, and less risk.",
+    "Loopscale is an order-book based lending protocol that matches lenders and borrowers directly for customizable loan terms on any asset.",
   links: {
     website: "https://app.loopscale.com/",
     discord: "https://discord.gg/loopscale",
