@@ -1,8 +1,8 @@
-import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "altude",
   name: "Altude",
-  tags: ["Tool"],
+  tags: ["tool"],
   links: {
     website: "https://altude.so/",
     discord: "https://discord.gg/9gPsQeZD7x",

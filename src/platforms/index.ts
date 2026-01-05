@@ -11,6 +11,7 @@ import * as akuma from "./akuma";
 import * as aldrin from "./aldrin";
 import * as allbridge from "./allbridge";
 import * as alldomains from "./alldomains";
+import * as altude from "./altude";
 import * as amulet from "./amulet";
 import * as armada from "./armada";
 import * as artrade from "./artrade";
@@ -290,6 +291,7 @@ export const platforms: PlatformRaw[] = [
   aldrin.platform,
   allbridge.platform,
   alldomains.platform,
+  altude.platform,
   amulet.platform,
   armada.platform,
   artrade.platform,
@@ -570,6 +572,7 @@ export const services: ServiceRaw[] = [
   ...aldrin.services,
   ...allbridge.services,
   ...alldomains.services,
+  ...altude.services,
   ...amulet.services,
   ...armada.services,
   ...artrade.services,
