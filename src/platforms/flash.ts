@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://flash.trade/",
     discord: "https://discord.com/invite/HqYDWnMP6J",
-    twitter: "https://twitter.com/FlashTrade_",
+    twitter: "https://x.com/FlashTrade",
     github: "https://github.com/flash-trade",
     documentation: "https://docs.flash.trade/flash-trade",
   },

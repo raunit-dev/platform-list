@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://frax.finance/",
     discord: "https://discord.gg/fraxfinance",
-    twitter: "https://x.com/fraboratories",
+    twitter: "https://x.com/fraxfinance",
     github: "https://github.com/FraxFinance",
     documentation: "https://docs.frax.finance/",
   },

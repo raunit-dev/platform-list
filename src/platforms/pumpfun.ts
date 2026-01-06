@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://pump.fun/board",
     telegram: "https://t.me/pumpfunsupport",
-    twitter: "https://x.com/pumpdotfun",
+    twitter: "https://x.com/pumpfun",
   },
   tokens: ["pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"],
 };

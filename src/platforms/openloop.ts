@@ -5,9 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "OpenLoop is a DePIN network enabling users to earn rewards by running Sentry Nodes and contributing bandwidth.",
   links: {
-    twitter: "https://x.com/openloop_so",
     website: "https://openloop.so/",
-    discord: "https://discord.gg/75qBRaUczN",
   },
   tags: ["depin"],
 };

@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Gofurs del Sol is an NFT collection with staking features for holders.",
   links: {
     website: "https://stake.gofursdelsol.com/",
-    twitter: "https://x.com/gofursdelsol",
+    twitter: "https://x.com/GOFURS404",
   },
   tags: ["nft-collection"],
 };

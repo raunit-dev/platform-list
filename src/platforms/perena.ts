@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://perena.org/",
     discord: "https://discord.com/invite/vaNnNBqXMt",
     telegram: "https://t.me/perena_community",
-    twitter: "https://x.com/Perena__",
+    twitter: "https://x.com/perena",
     documentation:
       "https://perena.notion.site/Product-Documentation-15fa37a29ca48060afd9cabb21b44d5c",
   },

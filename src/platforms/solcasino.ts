@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Solcasino is an online casino offering games including blackjack, poker, slots, roulette, sportsbook, and leverage trading with provably fair smart contracts.",
   links: {
     website: "https://solcasino.io/",
-    twitter: "https://x.com/Solcasinoio",
+    twitter: "https://x.com/solcasino",
     discord: "https://discord.gg/solcasinoio",
     telegram: "https://t.me/SolcasinoIOBot",
   },

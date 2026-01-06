@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://dflow.net/",
     discord: "https://discord.gg/dflow",
-    twitter: "https://x.com/dflowprotocol",
+    twitter: "https://x.com/dflow",
   },
   tags: ["dapp", "bridge"],
 };

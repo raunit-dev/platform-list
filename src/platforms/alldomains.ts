@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://alldomains.id/",
     discord: "https://discord.com/invite/alldomains",
     telegram: "https://t.me/AllDomainsID",
-    twitter: "https://twitter.com/AllDomains_",
+    twitter: "https://twitter.com/AllDomains",
     github: "https://github.com/onsol-labs",
     documentation: "https://docs.alldomains.id/protocol/",
   },

@@ -9,7 +9,6 @@ export const platform: PlatformRaw = {
     website: "https://www.picasso.network/",
     discord: "https://discord.com/invite/composable",
     telegram: "https://t.me/composablechat",
-    twitter: "https://x.com/picasso_network",
     github: "https://github.com/ComposableFi",
     medium: "https://medium.com/@Picasso_Network",
     documentation: "https://docs.picasso.network/",

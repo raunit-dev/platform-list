@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.loopscale.com/",
     discord: "https://discord.gg/loopscale",
-    twitter: "https://x.com/LoopscaleLabs",
+    twitter: "https://x.com/Loopscale",
     github: "https://github.com/bridgesplit",
     documentation: "https://docs.loopscale.com/",
   },

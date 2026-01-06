@@ -8,9 +8,9 @@ export const platform: PlatformRaw = {
   isDeprecated: true,
   tags: ["dapp"],
   links: {
-    website: "https://01-prod-git-main-monkeylanding.vercel.app/",
+    website: "https://01.xyz/",
     discord: "https://discord.gg/JZwrrgMhGT",
-    twitter: "https://x.com/01_exchange",
+    twitter: "https://x.com/01Exchange",
     documentation: "https://01.xyz/docs",
   },
 };

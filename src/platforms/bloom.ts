@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.bloombot.app/",
     discord: "https://discord.gg/bloomtrading",
-    twitter: "https://x.com/BloomTradingBot",
+    twitter: "https://x.com/BloomTrading",
     documentation: "https://docs.bloombot.app/",
   },
   tags: ["tool"],

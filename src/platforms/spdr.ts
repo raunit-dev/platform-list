@@ -7,11 +7,12 @@ export const platform: PlatformRaw = {
     website: "https://www.spiderswap.io/staking",
     discord: "https://discord.com/invite/spiderswap",
     telegram: "https://t.me/Tolysspider",
-    twitter: "https://twitter.com/spdrswap",
+    twitter: "https://twitter.com/carbium",
     github: "https://github.com/itsmodsiw/spidy",
     documentation: "https://webpaper.spiderswap.io/whitepaper",
   },
   tokens: ["AT79ReYU9XtHUTF5vM6Q4oa9K8w7918Fp5SU7G1MDMQY"],
+  isDeprecated: true,
   tags: ["dapp"],
 };
 

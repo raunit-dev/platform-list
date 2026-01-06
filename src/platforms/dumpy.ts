@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Dumpy.fun is a platform by Save Finance enabling users to short memecoins with collateral-backed positions and leverage.",
   links: {
     website: "https://dumpy.fun/",
-    twitter: "https://x.com/dumpyfun",
+    twitter: "https://x.com/save_finance",
   },
   tags: ["dapp", "memecoin"],
 };

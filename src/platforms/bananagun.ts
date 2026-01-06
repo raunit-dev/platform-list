@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Banana Gun is a Telegram-based trading bot for sniping and trading tokens on Ethereum, Solana, Base and Blast, featuring anti-rug protection and MEV resistance.",
   links: {
     website: "https://bananagun.io/",
-    twitter: "https://x.com/BananaGunBot",
+    twitter: "https://x.com/BananaGun",
     discord: "https://discord.gg/bananagun",
     documentation: "https://docs.bananagun.io/",
   },

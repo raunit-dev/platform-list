@@ -6,8 +6,8 @@ export const platform: PlatformRaw = {
     "Kishu is a dog-themed memecoin with staking features and an NFT marketplace for community engagement.",
   links: {
     website: "https://staking.kishuthedog.com/",
-    twitter: "https://twitter.com/kishuthedog",
   },
+  isDeprecated: true,
   tags: ["memecoin"],
 };
 export const services: ServiceRaw[] = [];

@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   defiLlamaId: "parent#maple-finance",
   links: {
     website: "https://www.maple.finance/",
-    twitter: "https://x.com/maboroshibros",
+    twitter: "https://x.com/maplefinance",
     discord: "https://discord.gg/maple",
   },
   tags: ["dapp"],

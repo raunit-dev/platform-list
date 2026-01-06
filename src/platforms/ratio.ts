@@ -5,7 +5,6 @@ export const platform: PlatformRaw = {
   name: "Ratio",
   links: {
     website: "https://www.ratio.finance/",
-    twitter: "https://x.com/ratiofinance",
   },
   tags: ["dapp"],
   isDeprecated: true,

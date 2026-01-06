@@ -7,7 +7,6 @@ export const platform: PlatformRaw = {
   tags: ["bridge", "tool", "dapp"],
   links: {
     website: "https://www.cytonic.com/",
-    twitter: "https://x.com/cytonic_com",
     discord: "https://discord.com/invite/cytonic",
     github: "https://github.com/cytonic-network",
     telegram: "https://t.me/cytonic_official",

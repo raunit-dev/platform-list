@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://nodepay.ai/",
     discord: "https://discord.com/invite/nodepay",
-    twitter: "https://x.com/nodepay_ai",
+    twitter: "https://x.com/nodepay",
     telegram: "https://t.me/nodepaycommunitychat",
   },
 };
