@@ -42,6 +42,12 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
+const primeContract = {
+  name: "Prime",
+  address: "prm1azdDGzyqP76s3Hv2nuG3uLnBgR5u2d7pANwmmzC",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: `${platform.id}-permissionless`,
   name: "Permissionless",
@@ -79,9 +85,19 @@ export const stakingService: ServiceRaw = {
     "HUMA token staking for governance participation and earning protocol revenue share.",
 };
 
+export const primeService: ServiceRaw = {
+  id: `${platform.id}-prime`,
+  name: "Prime",
+  platformId: platform.id,
+  contractsRaw: [primeContract],
+  description:
+    "Looping strategy vault for $PST.",
+};
+
 export const services: ServiceRaw[] = [
   service,
   institutionalService,
   airdropService,
   stakingService,
+  primeService,
 ];
