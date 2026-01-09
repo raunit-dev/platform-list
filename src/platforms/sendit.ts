@@ -9,8 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/senditfun",
     documentation: "https://docs.sendit.fun/",
   },
-  tags: ["dapp"],
-  isDeprecated: true,
+  tags: ["dapp", "memecoin", "defi", "trading"],
 };
 
 const earnContract = {

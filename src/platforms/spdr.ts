@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     website: "https://www.spiderswap.io/staking",
     discord: "https://discord.com/invite/spiderswap",
     telegram: "https://t.me/Tolysspider",
-    twitter: "https://twitter.com/carbium",
+    twitter: "https://x.com/carbium",
     github: "https://github.com/itsmodsiw/spidy",
     documentation: "https://webpaper.spiderswap.io/whitepaper",
   },

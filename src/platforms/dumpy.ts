@@ -8,7 +8,8 @@ export const platform: PlatformRaw = {
     website: "https://dumpy.fun/",
     twitter: "https://x.com/save_finance",
   },
-  tags: ["dapp", "memecoin"],
+  tags: ["dapp", "memecoin", "trading", "defi"],
+  isDeprecated: true,
 };
 
 const lendingContract = {

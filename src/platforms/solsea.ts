@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   isDeprecated: true,
   links: {
     website: "https://solsea.io/",
-    twitter: "https://twitter.com/SolSeaNFT",
+    twitter: "https://x.com/SolSeaNFT",
   },
   tags: ["nft-marketplace"],
 };

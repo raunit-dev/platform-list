@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.hxro.finance/",
     discord: "https://discord.com/invite/8rWajs2Dqu",
-    twitter: "https://twitter.com/HxroNetwork",
+    twitter: "https://x.com/HxroNetwork",
     github: "https://github.com/Hxro-Network",
     documentation: "https://docs.hxro.network/",
   },

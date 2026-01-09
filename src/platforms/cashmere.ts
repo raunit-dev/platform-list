@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     website: "https://www.cashmere.finance/",
     twitter: "https://x.com/cashmerewallet",
   },
-  tags: ["tool"],
+  tags: ["tool", "wallet"],
   isDeprecated: true,
 };
 

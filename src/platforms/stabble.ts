@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "stabble",
   description: "Solana's first frictionless liquidity and trading layer",
   defiLlamaId: "stabble",
-  tags: ["dapp"],
+  tags: ["dapp", "amm", "defi"],
   links: {
     website: "https://app.stabble.org/",
     discord: "https://discord.com/invite/SfkybtttdC",

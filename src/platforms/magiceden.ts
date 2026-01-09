@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://magiceden.io/solana",
     discord: "https://discord.gg/magiceden",
-    twitter: "https://twitter.com/MagicEden",
+    twitter: "https://x.com/MagicEden",
     github: "https://github.com/magiceden",
     documentation: "https://community.magiceden.io/learn",
   },

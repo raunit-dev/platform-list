@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/onre-finance",
     telegram: "https://t.me/+mW8VqpLlFIExMmMx",
   },
-  tags: ["dapp", "stablecoin"],
+  tags: ["dapp", "stablecoin", "institutional"],
 };
 const depositContract: ContractRaw = {
   name: `Deposit`,

@@ -7,11 +7,11 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://elemental.fund/",
     telegram: "https://tg.elemental.fund",
-    twitter: "https://twitter.com/elementaldefi",
+    twitter: "https://x.com/elementaldefi",
     github: "https://github.com/elementalfund",
     documentation: "https://docs.elemental.fund/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "vault", "defi"],
 };
 
 const contract = {

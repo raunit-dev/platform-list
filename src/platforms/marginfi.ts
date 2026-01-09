@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.marginfi.com/",
     telegram: "https://t.me/mrgnteam",
-    twitter: "https://twitter.com/marginfi",
+    twitter: "https://x.com/marginfi",
     github: "https://github.com/mrgnlabs/",
     documentation: "https://docs.marginfi.com/",
   },

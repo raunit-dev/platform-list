@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/flash-trade",
     documentation: "https://docs.flash.trade/flash-trade",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "trading", "defi"],
 };
 
 const contract = {

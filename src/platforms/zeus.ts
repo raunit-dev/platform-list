@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
   tokens: ["ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq"],
   description:
     "Zeus is a multichain layer enabling cross-chain interoperability.",
-  tags: ["dapp"],
+  tags: ["dapp", "infrastructure", "bitcoin"],
 };
 
 const bootstrapperContract = {

@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://app.moonwalk.fit/",
     discord: "https://discord.com/invite/jBhgHWUJ9U",
     telegram: "https://t.me/+x0hEQqQP1GpjZGZh",
-    twitter: "https://twitter.com/moonwalkfitness",
+    twitter: "https://x.com/moonwalkfitness",
     documentation: "https://moonwalk.fit/faq",
   },
   tags: ["fitness", "dapp"],

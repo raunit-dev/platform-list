@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://hedgehog.markets",
     discord: "http://discord.gg/2KusaG9wH7",
-    twitter: "https://twitter.com/HedgehogMarket",
+    twitter: "https://x.com/HedgehogMarket",
     github: "https://github.com/Hedgehog-Markets",
     medium: "https://hedgehogmarkets.substack.com/",
   },

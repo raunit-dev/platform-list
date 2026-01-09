@@ -2,6 +2,7 @@ import { NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "pudgy",
   name: "Pudgy Penguins",
+  description: "Pudgy Penguins NFT collection on Solana",
   links: {
     website: "https://pudgypenguins.com/",
     discord: "https://discord.gg/pudgypenguins",

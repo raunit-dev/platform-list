@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://iloop.finance/",
     discord: "https://discord.com/invite/ffDUZZ4kuu",
     telegram: "https://t.me/iloophq",
-    twitter: "https://twitter.com/iLoop_HQ",
+    twitter: "https://x.com/iLoop_HQ",
     documentation: "https://iloop-1.gitbook.io/docs.iloop.finance",
   },
   tags: ["dapp", "vault", "defi", "ai", "lst"],

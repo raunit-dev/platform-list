@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.layer3.xyz/",
     discord: "https://discord.gg/layer3",
-    twitter: "https://twitter.com/layer3",
+    twitter: "https://x.com/layer3",
     github: "https://github.com/layer3xyz",
     documentation: "https://docs.layer3.xyz/",
   },

@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.streamflow.finance/",
     discord: "https://discord.com/invite/streamflow-851921970169511976",
-    twitter: "https://twitter.com/streamflow_fi",
+    twitter: "https://x.com/streamflow_fi",
     github: "https://github.com/streamflow-finance",
     medium: "https://streamflow.medium.com/",
     documentation: "https://docs.streamflow.finance/en/",

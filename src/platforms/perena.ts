@@ -13,7 +13,8 @@ export const platform: PlatformRaw = {
     documentation:
       "https://perena.notion.site/Product-Documentation-15fa37a29ca48060afd9cabb21b44d5c",
   },
-  tags: ["dapp", "stablecoin"],
+  tags: ["dapp", "stablecoin", "amm"],
+  tokens: ["star9agSpjiFe3M49B3RniVU4CMBBEK3Qnaqn3RGiFM"],
 };
 
 const contract = {

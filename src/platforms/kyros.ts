@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Kyros is a liquid restaking protocol built on Jito Restaking, offering kySOL that combines staking, MEV, and restaking rewards.",
   defiLlamaId: "kyros",
-  tags: ["dapp", "lst"],
+  tags: ["dapp", "lst", "restaking"],
   links: {
     website: "https://app.kyros.fi/",
     twitter: "https://x.com/kyrosfi",

@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Gary is a memecoin with token locking features for community engagement.",
   links: {
     website: "https://gary.club/lock_gary",
-    twitter: "https://twitter.com/GaryCoinOnSol",
+    twitter: "https://x.com/GaryCoinOnSol",
   },
   tags: ["memecoin"],
 };

@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "solstice",
   name: "Solstice",
-  tags: ["dapp", "stablecoin"],
+  tags: ["dapp", "stablecoin", "institutional", "defi"],
   links: {
     website: "https://solstice.finance/",
     twitter: "https://x.com/solsticefi",

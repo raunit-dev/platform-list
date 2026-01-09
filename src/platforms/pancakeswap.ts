@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "PancakeSwap is a multi-chain DEX offering token swaps, liquidity provision, and yield farming across multiple networks.",
   links: {
     website: "https://solana.pancakeswap.finance/",
-    twitter: "https://twitter.com/pancakeswap",
+    twitter: "https://x.com/pancakeswap",
     discord: "https://discord.gg/pancakeswap",
     github: "https://github.com/pancakeswap/",
   },

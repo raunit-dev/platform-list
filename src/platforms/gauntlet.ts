@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   defiLlamaId: "gauntlet",
   links: {
     website: "https://www.gauntlet.xyz/",
-    twitter: "https://twitter.com/gauntlet_xyz",
+    twitter: "https://x.com/gauntlet_xyz",
     github: "https://github.com/gauntlet-networks",
   },
   tags: ["tool", "defi", "vault"],

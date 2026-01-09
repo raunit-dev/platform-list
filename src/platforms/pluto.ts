@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Pluto is a leveraged yield protocol enabling users to multiply their yield exposure through automated strategies.",
   defiLlamaId: "pluto",
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "vault"],
   links: {
     website: "https://pluto.so/",
     discord: "https://discord.com/invite/plutoleverage",

@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
   description: "Ultimate decentralised distribution stack",
   links: {
     website: "https://lfg.jup.ag/",
-    twitter: "https://twitter.com/JupiterExchange",
+    twitter: "https://x.com/JupiterExchange",
   },
   tags: ["tool"],
 };

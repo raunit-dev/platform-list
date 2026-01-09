@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.parcl.co/",
     discord: "https://discord.gg/parcl",
-    twitter: "https://twitter.com/Parcl",
+    twitter: "https://x.com/Parcl",
     github: "https://github.com/ParclFinance",
     documentation: "https://docs.parcl.co/",
   },

@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "voltr",
   name: "Voltr",
+  description: "Automated yield optimization vaults on Solana",
   links: {
     website: "https://voltr.xyz/",
     twitter: "https://x.com/voltrxyz",

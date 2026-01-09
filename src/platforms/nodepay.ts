@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Nodepay",
   description:
     "Nodepay is a DePIN network enabling users to earn rewards by sharing unused bandwidth for AI training and data infrastructure.",
-  tags: ["tool", "depin"],
+  tags: ["tool", "depin", "ai"],
   links: {
     website: "https://nodepay.ai/",
     discord: "https://discord.com/invite/nodepay",

@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     documentation: "https://www.tuktuk.fun/docs",
     github: "https://github.com/helium/tuktuk",
   },
-  tags: ["tool"],
+  tags: ["tool", "infrastructure"],
   addedAt: 1764244800000,
 };
 

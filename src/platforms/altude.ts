@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "altude",
   name: "Altude",
+  description: "Developer tools and infrastructure for Solana",
   tags: ["tool"],
   links: {
     website: "https://altude.so/",

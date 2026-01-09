@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   tags: ["tool"],
   links: {
     website: "https://clone.so/",
-    twitter: "https://twitter.com/CloneProtocol",
+    twitter: "https://x.com/CloneProtocol",
     documentation: "https://docs.clone.so/",
   },
 };

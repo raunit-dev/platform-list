@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "solv",
   name: "Solv",
-  tags: ["dapp"],
+  description: "Bitcoin liquid staking protocol on Solana",
+  tags: ["dapp", "defi", "bitcoin"],
   links: {
     website: "https://solv.finance/",
     twitter: "https://x.com/SolvProtocol",

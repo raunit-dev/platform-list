@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     website: "https://github.com/Friktion-Labs",
     github: "https://github.com/Friktion-Labs",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi"],
   isDeprecated: true,
 };
 

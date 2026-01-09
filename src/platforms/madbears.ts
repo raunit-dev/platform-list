@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Mad Bears Club is a Web3 investment community featuring an NFT collection, MBC token, and copy trading services.",
   links: {
     website: "https://staking.madbears.club/",
-    twitter: "https://twitter.com/madbearsclub",
+    twitter: "https://x.com/madbearsclub",
   },
   tags: ["nft-collection"],
 };

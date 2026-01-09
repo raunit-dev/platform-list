@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "claynosaurz",
   name: "Claynosaurz",
+  description: "NFT collection featuring clay-styled dinosaur characters",
   links: {
     twitter: "https://x.com/Claynosaurz",
     website: "https://claynosaurz.com/",

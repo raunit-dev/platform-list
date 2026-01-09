@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://w.wormhole.com/",
     discord: "https://discord.com/invite/wormholecrypto",
     telegram: "https://t.me/wormholecrypto",
-    twitter: "https://twitter.com/wormhole",
+    twitter: "https://x.com/wormhole",
     github: "https://github.com/wormhole-foundation",
     documentation: "https://wormhole.com/docs/",
   },

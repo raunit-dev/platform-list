@@ -10,6 +10,10 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/WNutXfvTgw",
     twitter: "https://x.com/piggybank_fi",
   },
+  tokens: [
+    "F35yYmTR6PqkbTx449P1eGhB57mRhWAdYs93eCo2dMZR",
+    "E65CoK961Rs5LzKhGZxbKsB7xpFhYhXogH8nhr8zamTK",
+  ],
   addedAt: 1761652800000,
 };
 

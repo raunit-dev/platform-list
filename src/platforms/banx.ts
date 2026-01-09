@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://banx.gg/",
     discord: "https://discord.com/invite/banxfromfrakt",
-    twitter: "https://twitter.com/banx_gg",
+    twitter: "https://x.com/banx_gg",
     github: "https://github.com/frakt-solana",
     documentation: "https://docs.banx.gg/",
   },

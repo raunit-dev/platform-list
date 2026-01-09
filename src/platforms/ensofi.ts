@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://app.ensofi.xyz",
     discord: "https://discord.com/invite/ensofi",
     telegram: "https://t.me/ensofiapp_bot/ensofi?startapp=mainnet",
-    twitter: "https://twitter.com/Ensofi_xyz",
+    twitter: "https://x.com/Ensofi_xyz",
     github: "https://github.com/Ensofi-xyz",
     documentation: "https://ensofi.gitbook.io/ensofi",
   },

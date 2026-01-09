@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
     documentation: "https://help.fjordfoundry.com/fjord-foundry-docs",
   },
   tags: ["launchpad"],
+  isDeprecated: true,
 };
 
 const contract = {

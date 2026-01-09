@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/nosana-ci",
     documentation: "https://docs.nosana.com/",
   },
-  tags: ["tool", "depin", "dapp"],
+  tags: ["tool", "depin", "dapp", "ai"],
 };
 const contract: ContractRaw = {
   name: "Staking",

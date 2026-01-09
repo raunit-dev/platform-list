@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://www.sns.id/",
     discord: "https://discord.com/invite/bonfida-778660171265474572",
     telegram: "https://t.me/snsdotsol",
-    twitter: "https://twitter.com/sns",
+    twitter: "https://x.com/sns",
     github: "https://github.com/Bonfida",
     documentation: "https://docs.sns.id/collection",
   },

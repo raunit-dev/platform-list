@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://mango.markets/",
     discord: "https://discord.com/invite/pcSkP3yJMU",
-    twitter: "https://twitter.com/mangomarkets",
+    twitter: "https://x.com/mangomarkets",
     github: "https://github.com/blockworks-foundation",
   },
   tokens: ["MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"],

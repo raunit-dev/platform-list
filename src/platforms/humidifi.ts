@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/humidifi",
   },
   tokens: ["WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"],
-  tags: ["liquidity-provider"],
+  tags: ["liquidity-provider", "amm"],
 };
 
 export const services = [];

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "btcSOL",
   description:
     "btcSOL is a liquid staking token that converts SOL staking yield into daily BTC rewards through automatic zBTC purchases.",
-  tags: ["dapp", "lst", "defi"],
+  tags: ["dapp", "lst", "defi", "bitcoin"],
   links: {
     website: "https://btcsol.co/",
     discord: "https://discord.com/invite/zeusnetwork",

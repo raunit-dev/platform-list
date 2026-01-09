@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.fluxbeam.xyz/",
   },
   tokens: ["FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"],
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "defi"],
 };
 
 const contract = {

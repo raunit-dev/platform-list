@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "wintermute",
   name: "Wintermute",
+  description: "Institutional market maker and liquidity provider",
   links: {
     website: "https://www.wintermute.com/",
     twitter: "https://x.com/wintermute_t",

@@ -10,6 +10,11 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp", "lending", "vault", "defi"],
   isDeprecated: true,
+  tokens: [
+    "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
+    "yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM",
+    "PRT88RkA4Kg5z7pKnezeNH4mafTvtQdfFgpQTGRjz44",
+  ],
 };
 
 const lendingContract = {

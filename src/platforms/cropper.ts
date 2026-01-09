@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   defiLlamaId: "cropper-clmm",
   links: {
     website: "https://cropper.finance/",
-    twitter: "https://twitter.com/CropperFinance",
+    twitter: "https://x.com/CropperFinance",
     telegram: "https://t.me/CropperFinance",
     github: "https://github.com/CropperFinance",
     medium: "https://cropperfinance.medium.com/",

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Hubble",
   description:
     "Hubble Protocol was a DeFi platform that enabled users to borrow USDH stablecoin against crypto collateral with low interest rates.",
-  tags: ["dapp"],
+  tags: ["dapp", "stablecoin", "defi", "lending"],
   isDeprecated: true,
   links: {
     website: "https://app.hubbleprotocol.io/",

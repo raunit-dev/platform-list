@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://staratlas.com/",
     discord: "https://discord.com/invite/StarAtlas",
     telegram: "https://t.me/staratlasgame",
-    twitter: "https://twitter.com/staratlas",
+    twitter: "https://x.com/staratlas",
     github: "https://github.com/staratlasmeta",
     documentation: "https://staratlas.com/newsroom/game-manuals",
   },

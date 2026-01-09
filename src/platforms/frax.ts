@@ -12,7 +12,9 @@ export const platform: PlatformRaw = {
     github: "https://github.com/FraxFinance",
     documentation: "https://docs.frax.finance/",
   },
-  tags: ["stablecoin"],
+  tags: ["stablecoin", "defi"],
+  tokens: ["GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw"],
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];

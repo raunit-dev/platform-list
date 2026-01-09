@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "CyberFrogs",
   links: {
     website: "https://legacy.cyberfrogs.io/faction-contracts-v3",
-    twitter: "https://twitter.com/CyberFrogsNFT",
+    twitter: "https://x.com/CyberFrogsNFT",
     discord: "https://discord.com/invite/cyberfrogs",
   },
   description:

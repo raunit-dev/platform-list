@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://orderly.network/",
     discord: "https://discord.com/invite/orderlynetwork",
-    twitter: "https://twitter.com/OrderlyNetwork",
+    twitter: "https://x.com/OrderlyNetwork",
     telegram: "https://t.me/OrderlyNetworkDiscussions",
     github: "https://github.com/OrderlyNetwork",
     documentation:

@@ -9,5 +9,6 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/M1Capital_",
   },
   tags: ["tool"],
+  isDeprecated: true,
 };
 export const services: ServiceRaw[] = [];

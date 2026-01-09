@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://app.cushion.trade/vaults",
     twitter: "https://x.com/cushiondottrade",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi"],
 };
 
 export const services: ServiceRaw[] = [];

@@ -6,12 +6,13 @@ export const platform: PlatformRaw = {
     "Texture is a peer-to-peer token lending protocol that enables users to borrow and lend tokens directly without intermediaries or liquidation risk.",
   links: {
     website: "https://texture.finance/",
-    twitter: "https://twitter.com/texture_fi",
+    twitter: "https://x.com/texture_fi",
     discord: "https://discord.gg/6YvjpXzsqp",
     github: "https://github.com/texture-finance",
     documentation: "https://texture.gitbook.io/texture",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi", "nft"],
+  isDeprecated: true,
 };
 
 const lendingContractV1 = {

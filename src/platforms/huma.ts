@@ -4,10 +4,10 @@ export const platform: PlatformRaw = {
   name: "Huma",
   description:
     "Huma Finance is a PayFi protocol providing instant liquidity for global payments and cross-border transactions.",
-  tags: ["dapp"],
+  tags: ["dapp", "stablecoin", "defi", "vault"],
   links: {
     website: "https://huma.finance/",
-    twitter: "https://twitter.com/humafinance",
+    twitter: "https://x.com/humafinance",
     discord: "https://discord.gg/29zVxZ6kCN",
     github: "https://github.com/00labs",
     documentation: "https://huma-finance.gitbook.io/huma-2.0",

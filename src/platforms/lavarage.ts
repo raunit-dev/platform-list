@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/lavarage_xyz",
     medium: "https://medium.com/@lavaragexyz",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "trading"],
 };
 
 export const lavarageUsdcContract = {

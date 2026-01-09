@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     website: "https://exotic.markets/",
     twitter: "https://x.com/exotic_markets_",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "options"],
   isDeprecated: true,
 };
 

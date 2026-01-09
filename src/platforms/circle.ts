@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.circle.com/",
     discord: "https://discord.com/invite/buildoncircle",
-    twitter: "https://twitter.com/circle",
+    twitter: "https://x.com/circle",
     github: "https://github.com/circlefin",
     documentation: "https://www.circle.com/resources",
   },

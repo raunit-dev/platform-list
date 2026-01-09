@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     website: "https://tulip.garden/",
     discord: "https://discord.gg/tulipgarden",
     telegram: "https://t.me/TulipProtocol",
-    twitter: "https://twitter.com/TulipProtocol",
+    twitter: "https://x.com/TulipProtocol",
     github: "https://github.com/sol-farm",
     medium: "https://medium.com/tulipprotocol",
     documentation: "https://tulip-protocol.gitbook.io/tulip-protocol",

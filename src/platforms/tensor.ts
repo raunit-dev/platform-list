@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.tensor.trade/",
     discord: "https://discord.gg/tensor",
-    twitter: "https://twitter.com/tensor_hq",
+    twitter: "https://x.com/tensor_hq",
     github: "https://github.com/tensor-hq",
     documentation: "https://docs.tensor.trade/",
   },

@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Ore is a mineable proof-of-work token using the DrillX algorithm, allowing anyone to mine ORE tokens with guaranteed fair distribution.",
   links: {
     website: "https://ore.supply/",
-    twitter: "https://twitter.com/OreSupply",
+    twitter: "https://x.com/OreSupply",
     discord: "https://discord.gg/ore-supply",
     github: "https://github.com/regolith-labs/ore",
   },

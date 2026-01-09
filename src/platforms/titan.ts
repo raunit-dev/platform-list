@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/TitanDexSol",
     documentation: "https://titandex.gitbook.io/titan",
   },
-  tags: ["tool", "dapp", "dex"],
+  tags: ["tool", "dapp", "dex", "defi"],
 };
 
 const contract = {

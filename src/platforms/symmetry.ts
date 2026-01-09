@@ -9,12 +9,12 @@ export const platform: PlatformRaw = {
     website: "https://www.symmetry.fi/",
     discord: "http://discord.gg/ahdqBRgE7G",
     telegram: "https://t.me/symmetry_fi",
-    twitter: "https://twitter.com/symmetry_fi",
+    twitter: "https://x.com/symmetry_fi",
     github: "https://github.com/symmetry-protocol",
     medium: "https://symmetry-fi.medium.com/",
     documentation: "https://docs.symmetry.fi/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "defi"],
 };
 
 const contract = {

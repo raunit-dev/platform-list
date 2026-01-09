@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.flowmatic.xyz/",
     discord: "https://discord.gg/flowmatic",
-    twitter: "https://twitter.com/FlowmaticXYZ",
+    twitter: "https://x.com/FlowmaticXYZ",
     documentation: "https://docs.flowmatic.xyz/",
   },
   tokens: ["Eh1fXbAipe4k7CYR9UMb2bbWmBcpU3HcyX3LWuRVFBLz"],

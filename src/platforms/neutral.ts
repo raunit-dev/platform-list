@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://www.app.neutral.trade/",
     discord: "https://discord.gg/neutraltrade",
     telegram: "https://t.me/neutraltrade/",
-    twitter: "https://twitter.com/TradeNeutral",
+    twitter: "https://x.com/TradeNeutral",
     medium: "https://neutraltrade.medium.com/",
     documentation: "https://docs.neutral.trade/",
   },

@@ -2,10 +2,11 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "stepfinance",
   name: "Step Finance",
+  description: "Portfolio management and analytics platform for Solana",
   defiLlamaId: "step-finance",
   links: {
     website: "https://app.step.finance/",
-    twitter: "https://twitter.com/StepFinance_",
+    twitter: "https://x.com/StepFinance_",
     github: "https://github.com/step-finance",
   },
   tokens: [

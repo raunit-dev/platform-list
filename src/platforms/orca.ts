@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.orca.so/",
     discord: "https://discord.orca.so/",
-    twitter: "https://twitter.com/orca_so",
+    twitter: "https://x.com/orca_so",
     github: "https://github.com/orca-so",
     medium: "https://orca-so.medium.com/",
     documentation: "https://docs.orca.so/",

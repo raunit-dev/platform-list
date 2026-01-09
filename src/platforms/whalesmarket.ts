@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.whales.market/",
   },
   tokens: ["GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1"],
-  tags: ["dapp", "prediction", "trading"],
+  tags: ["dapp", "prediction", "trading", "defi"],
 };
 
 const contract = {

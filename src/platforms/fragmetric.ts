@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Fragmetric is a liquid restaking protocol enabling users to restake SOL for enhanced yields while maintaining liquidity.",
   defiLlamaId: "fragmetric",
-  tags: ["dapp", "lst"],
+  tags: ["dapp", "lst", "restaking", "defi"],
   links: {
     website: "https://fragmetric.xyz/",
     discord: "https://discord.gg/fragmetric",

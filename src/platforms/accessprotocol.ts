@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://hub.accessprotocol.co",
     discord: "https://discord.com/invite/access-protocol-1001837380044587118",
-    twitter: "https://twitter.com/AccessProtocol",
+    twitter: "https://x.com/AccessProtocol",
     github: "https://github.com/Access-Labs-Inc",
     documentation: "https://docs.accessprotocol.co/guide",
   },

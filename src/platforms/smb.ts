@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "smb",
   name: "Solana Monkey Business",
+  description: "Solana Monkey Business NFT collection and marketplace",
   links: {
     twitter: "https://x.com/MonkeDAO",
     website: "https://monkedao.io/",

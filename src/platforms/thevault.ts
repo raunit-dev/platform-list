@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, ContractRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "thevault",
   name: "The Vault",
+  description: "Liquid staking protocol for Solana",
   defiLlamaId: "the-vault",
   links: {
     website: "https://thevault.finance/",

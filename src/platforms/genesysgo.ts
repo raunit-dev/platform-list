@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.shdwdrive.com/",
     discord: "https://discord.com/invite/shdwdrive",
-    twitter: "https://twitter.com/genesysgo",
+    twitter: "https://x.com/genesysgo",
     github: "https://github.com/GenesysGo",
     documentation: "https://docs.shdwdrive.com/",
   },

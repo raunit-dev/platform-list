@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   defiLlamaId: "circuit",
   links: {
     website: "https://app.circuit.trade/",
-    twitter: "https://twitter.com/CircuitTrading_",
+    twitter: "https://x.com/CircuitTrading_",
     discord: "https://discord.gg/circuittrade",
     documentation: "https://docs.circuit.trade/",
   },

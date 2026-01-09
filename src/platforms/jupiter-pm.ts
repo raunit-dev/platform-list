@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://jup.ag/prediction",
     discord: "https://discord.gg/jup",
-    twitter: "https://twitter.com/JupiterExchange",
+    twitter: "https://x.com/JupiterExchange",
     github: "https://github.com/jup-ag",
   },
   tags: ["dapp", "prediction"],

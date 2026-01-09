@@ -3,12 +3,12 @@ export const platform: PlatformRaw = {
   id: "oro",
   name: "Oro",
   description:
-    "Oro is a DeFi protocol offering staking and yield generation services.",
+    "Regulated tokenized gold protocol with yield-bearing tokens backed by physical gold",
   links: {
     website: "https://app.oro.finance/",
     twitter: "https://x.com/orogoldapp",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "rwa"],
 };
 const staking: ContractRaw = {
   name: `Staking`,

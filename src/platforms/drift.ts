@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.drift.trade/",
     discord: "https://discord.com/invite/fMcZBH8ErM",
-    twitter: "https://twitter.com/DriftProtocol",
+    twitter: "https://x.com/DriftProtocol",
     github: "https://github.com/drift-labs",
     documentation: "https://docs.drift.trade/",
   },

@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://core.allbridge.io",
     discord: "https://discord.com/invite/ASuPY8d3E6",
-    twitter: "https://twitter.com/Allbridge_io",
+    twitter: "https://x.com/Allbridge_io",
     github: "https://github.com/allbridge-io",
     documentation: "https://docs-core.allbridge.io/",
     telegram: "https://t.me/allbridge_official",

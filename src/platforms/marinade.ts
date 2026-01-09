@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://marinade.finance/",
     discord: "https://discord.gg/yTdH8YkYKg",
-    twitter: "https://twitter.com/MarinadeFinance",
+    twitter: "https://x.com/MarinadeFinance",
     github: "https://github.com/marinade-finance",
     documentation: "https://docs.marinade.finance/",
   },

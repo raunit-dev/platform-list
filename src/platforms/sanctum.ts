@@ -5,11 +5,11 @@ export const platform: PlatformRaw = {
   description:
     "Sanctum is a liquid staking protocol that provides unified liquidity for LSTs, enabling instant swaps between any liquid staking tokens and native SOL.",
   defiLlamaId: "parent#sanctum",
-  tags: ["lst", "dapp"],
+  tags: ["lst", "dapp", "defi"],
   links: {
     website: "https://www.sanctum.so/",
     discord: "https://discord.gg/sanctumso",
-    twitter: "https://twitter.com/sanctumso",
+    twitter: "https://x.com/sanctumso",
     github: "https://github.com/igneous-labs",
     documentation: "https://learn.sanctum.so/docs",
   },

@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "domin8",
   name: "Domin8",
+  description: "On-chain gaming platform on Solana",
   links: {
     website: "https://www.domin8.fun/",
     twitter: "https://x.com/domin8Arena",

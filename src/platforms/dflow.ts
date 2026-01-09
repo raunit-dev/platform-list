@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/dflow",
     twitter: "https://x.com/dflow",
   },
-  tags: ["dapp", "bridge"],
+  tags: ["dapp", "bridge", "prediction"],
 };
 
 export const contract = {

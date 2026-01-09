@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/hylo_announcements",
     github: "https://github.com/hylo-so",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "stablecoin", "defi", "lst"],
   tokens: [
     "HnnGv3HrSqjRpgdFmx7vQGjntNEoex1SU4e9Lxcxuihz",
     "5YMkXAYccHSGnHn9nob9xEvv6Pvka9DZWH7nTbotTu9E",

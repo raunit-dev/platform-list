@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.underdogprotocol.com/",
   },
   tags: ["tool", "dapp"],
+  isDeprecated: true,
 };
 
 export const mainContract = {

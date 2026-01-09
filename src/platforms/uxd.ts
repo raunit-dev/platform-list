@@ -6,11 +6,11 @@ export const platform: PlatformRaw = {
     "Decentralized stablecoin stabilized by an asset liability management module",
   defiLlamaId: "uxd",
   isDeprecated: true,
-  tags: ["stablecoin"],
+  tags: ["stablecoin", "defi"],
   links: {
     website: "https://uxd.fi/",
     discord: "https://discord.gg/CAuFvvd5qw",
-    twitter: "https://twitter.com/UXDProtocol",
+    twitter: "https://x.com/UXDProtocol",
     github: "https://github.com/uxdprotocol",
     medium: "https://uxdprotocol.medium.com/",
     documentation: "https://docs.uxd.fi/uxdprotocol",

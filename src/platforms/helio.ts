@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "MoonPay Commerce (Helio)",
   description:
     "MoonPay Commerce (formerly Helio) is a crypto payment infrastructure enabling merchants to accept cryptocurrency payments.",
-  tags: ["dapp"],
+  tags: ["tool", "infrastructure", "payments"],
   links: {
     website: "https://www.hel.io/",
     twitter: "https://x.com/MoonPayCommerce",

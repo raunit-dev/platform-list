@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://jito.network/",
     discord: "https://discord.gg/jito",
-    twitter: "https://twitter.com/jito_sol",
+    twitter: "https://x.com/jito_sol",
     github: "https://github.com/jito-foundation",
     medium: "https://medium.com/@Jito-Foundation",
     documentation: "https://www.jito.network/docs/jitosol/overview/",

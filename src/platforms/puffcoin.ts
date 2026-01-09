@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "puffcoin",
   name: "Puff",
+  description: "Memecoin with staking functionality on Solana",
   links: {
     website: "https://staking.puffcoin.fun/",
     twitter: "https://x.com/PuffCoin_",

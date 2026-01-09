@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://jup.ag/",
     discord: "https://discord.gg/jup",
-    twitter: "https://twitter.com/JupiterExchange",
+    twitter: "https://x.com/JupiterExchange",
     github: "https://github.com/jup-ag",
     documentation: "https://station.jup.ag/",
   },
@@ -18,7 +18,7 @@ export const platform: PlatformRaw = {
     "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
     "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
   ],
-  tags: ["dapp", "lending", "trading", "stablecoin", "defi"],
+  tags: ["dapp", "lending", "trading", "stablecoin", "defi", "lst"],
 };
 
 export const jupiterV7Contract: ContractRaw = {

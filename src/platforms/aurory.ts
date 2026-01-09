@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.aurory.io",
     discord: "https://discord.gg/aurory",
-    twitter: "https://twitter.com/AuroryProject",
+    twitter: "https://x.com/AuroryProject",
     documentation: "https://docs.aurory.io/",
     github: "https://github.com/Aurory-Game",
   },

@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Lombard is a Bitcoin staking protocol that issues LBTC, a yield-bearing liquid Bitcoin token backed 1:1 by BTC and secured by a decentralized validator network.",
   defiLlamaId: "parent#lombard-finance",
-  tags: ["dapp", "defi"],
+  tags: ["dapp", "defi", "bitcoin"],
   links: {
     website: "https://www.lombard.finance/",
     documentation: "https://docs.lombard.finance/",

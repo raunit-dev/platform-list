@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://www.lulo.fi",
     discord: "https://discord.com/invite/lulo",
     telegram: "https://t.me/uselulo",
-    twitter: "https://twitter.com/uselulo",
+    twitter: "https://x.com/uselulo",
     github: "https://github.com/lulo-labs",
     documentation: "https://docs.lulo.fi/",
   },

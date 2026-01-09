@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "SolSave",
   description:
     "SolSave is a utility tool for selling and burning unused tokens, closing empty token accounts to recover rent, with zero fees.",
-  tags: ["dapp"],
+  tags: ["dapp", "tool"],
   links: {
     website: "https://solsave.me/",
     twitter: "https://x.com/solsaveme",

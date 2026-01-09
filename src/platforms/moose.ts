@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   defiLlamaId: "moose",
   links: {
     website: "https://moose.market/",
-    twitter: "https://twitter.com/moose_market",
+    twitter: "https://x.com/moose_market",
     documentation: "https://docs.moose.market/",
   },
   tags: ["dapp", "vault", "defi"],

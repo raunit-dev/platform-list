@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://app.divvy.bet/",
     discord: "https://discord.com/invite/divvybet",
-    twitter: "https://twitter.com/DivvyBet",
+    twitter: "https://x.com/DivvyBet",
     documentation:
       "https://divvy.bet/wp-content/uploads/2022/12/Divvy_Knowledge_Hub_06.pdf",
   },

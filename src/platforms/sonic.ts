@@ -15,7 +15,7 @@ export const platform: PlatformRaw = {
     "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
     "sonickAJFiVLcYXx25X9vpF293udaWqDMUCiGtk7dg2",
   ],
-  tags: ["gaming"],
+  tags: ["gaming", "infrastructure"],
 };
 
 const contract = {
