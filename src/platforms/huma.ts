@@ -90,8 +90,7 @@ export const primeService: ServiceRaw = {
   name: "Prime",
   platformId: platform.id,
   contractsRaw: [primeContract],
-  description:
-    "Looping strategy vault for $PST.",
+  description: "Looping strategy vault for $PST.",
 };
 
 export const services: ServiceRaw[] = [

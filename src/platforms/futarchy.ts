@@ -71,7 +71,12 @@ export const ICOService: ServiceRaw = {
   platformId: platform.id,
   contractsRaw: [ICOContract],
   link: "https://metadao.fi/",
-  description: "Raise money while putting ownership into the hands of your early users and believers.d"
+  description:
+    "Raise money while putting ownership into the hands of your early users and believers.d",
 };
 
-export const services: ServiceRaw[] = [launchpadService, decisionMarketService, ICOService];
+export const services: ServiceRaw[] = [
+  launchpadService,
+  decisionMarketService,
+  ICOService,
+];
