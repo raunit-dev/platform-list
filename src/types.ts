@@ -10,6 +10,7 @@ export type Platform = {
   defiLlamaId?: string;
   isDeprecated: boolean;
   addedAt?: number;
+  platformToken?: string;
   tokens?: string[];
   tags: PlatformTag[];
   links: {
