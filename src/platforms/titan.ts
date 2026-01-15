@@ -46,4 +46,8 @@ export const forgeService: ServiceRaw = {
   contractsRaw: [],
 };
 
-export const services: ServiceRaw[] = [service, forgeService, limitOrderService];
+export const services: ServiceRaw[] = [
+  service,
+  forgeService,
+  limitOrderService,
+];

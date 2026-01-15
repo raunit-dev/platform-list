@@ -74,6 +74,7 @@ import * as drip from "./drip";
 import * as dumpy from "./dumpy";
 import * as elemental from "./elemental";
 import * as ensofi from "./ensofi";
+import * as epicentral from "./epicentral";
 import * as exoticmarkets from "./exoticmarkets";
 import * as exponent from "./exponent";
 import * as famousfoxfederation from "./famousfoxfederation";
@@ -371,6 +372,7 @@ export const platforms: PlatformRaw[] = [
   dumpy.platform,
   elemental.platform,
   ensofi.platform,
+  epicentral.platform,
   exoticmarkets.platform,
   exponent.platform,
   famousfoxfederation.platform,
@@ -669,6 +671,7 @@ export const services: ServiceRaw[] = [
   ...dumpy.services,
   ...elemental.services,
   ...ensofi.services,
+  ...epicentral.services,
   ...exoticmarkets.services,
   ...exponent.services,
   ...famousfoxfederation.services,
