@@ -187,6 +187,7 @@ import * as okx from "./okx";
 import * as omni from "./omni";
 import * as ondoFinance from "./ondo-finance";
 import * as onre from "./onre";
+import * as oobit from "./oobit";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
 import * as orca from "./orca";
@@ -491,6 +492,7 @@ export const platforms: PlatformRaw[] = [
   omni.platform,
   ondoFinance.platform,
   onre.platform,
+  oobit.platform,
   openbook.platform,
   openloop.platform,
   orca.platform,
@@ -796,6 +798,7 @@ export const services: ServiceRaw[] = [
   ...omni.services,
   ...ondoFinance.services,
   ...onre.services,
+  ...oobit.services,
   ...openbook.services,
   ...openloop.services,
   ...orca.services,
