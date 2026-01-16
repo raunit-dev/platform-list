@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://solana.com/",
     discord: "https://solana.com/discord",
     telegram: "https://solana.com/telegram",
-    twitter: "https://solana.com/twitter",
+    twitter: "https://x.com/solana",
     github: "https://solana.com/github",
     documentation: "https://solana.com/docs",
   },

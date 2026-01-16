@@ -6,7 +6,6 @@ export const platform: PlatformRaw = {
     "Composable, auction-driven transfers that optimize speed and cost for a seamless multichain experience.",
   links: {
     website: "https://mayan.finance/",
-    twitter: "https://x.com/mayanfinance",
     discord: "https://discord.gg/mayanfinance",
     documentation: "https://docs.mayan.finance/",
   },

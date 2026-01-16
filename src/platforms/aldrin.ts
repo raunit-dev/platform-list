@@ -7,8 +7,8 @@ export const platform: PlatformRaw = {
     "Aldrin was a DEX that offered AMM pools, limit orders, and trading analytics with a centralized orderbook.",
   links: {
     website: "https://x.com/Aldrin_Exchange",
-    twitter: "https://x.com/Aldrin_Exchange",
   },
+  defiLlamaId: "aldrin",
   platformToken: "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp",
   tags: ["dapp", "dex", "amm"],
   isDeprecated: true,

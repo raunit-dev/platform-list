@@ -4,7 +4,6 @@ export const platform: PlatformRaw = {
   name: "01",
   description:
     "01 Exchange is a next-gen trading experience with the speed of centralized exchanges and the integrity of decentralized finance, powered by Nord Engine.",
-  defiLlamaId: "01",
   isDeprecated: true,
   tags: ["dapp"],
   links: {

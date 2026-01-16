@@ -7,7 +7,6 @@ export const platform: PlatformRaw = {
   tags: ["nft-collection", "gaming"],
   links: {
     website: "https://staking.theakuma.xyz",
-    twitter: "https://x.com/TheAkumaXYZ",
   },
 };
 
