@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Boop",
   description:
     "Boop is a memecoin launchpad that gamifies token creation through community-driven dynamics, allowing users to launch tokens and earn rewards through staking.",
+  defiLlamaId: "boop.fun",
   tags: ["memecoin", "launchpad", "dapp"],
   links: {
     website: "https://boop.fun/",

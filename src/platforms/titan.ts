@@ -3,8 +3,9 @@ export const platform: PlatformRaw = {
   id: "titan",
   name: "Titan",
   description: "Titan is a decentralized exchange and liquidity aggregator.",
+  defiLlamaId: "titan-exchange",
   links: {
-    website: "https://titandex.io/",
+    website: "https://titan.exchange/",
     twitter: "https://x.com/Titan_Exchange",
     discord: "https://discord.gg/titanexchange",
     telegram: "https://t.me/TitanDexSol",
@@ -19,11 +20,24 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
+const limitOrderContract = {
+  name: "Limit Order",
+  address: "TitanLozLMhczcwrioEguG2aAmiATAPXdYpBg3DbeKK",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [contract],
+};
+
+export const limitOrderService: ServiceRaw = {
+  id: `${platform.id}-limit-order`,
+  name: "Limit Order",
+  platformId: platform.id,
+  contractsRaw: [limitOrderContract],
 };
 
 export const forgeService: ServiceRaw = {
@@ -33,4 +47,8 @@ export const forgeService: ServiceRaw = {
   contractsRaw: [],
 };
 
-export const services: ServiceRaw[] = [service, forgeService];
+export const services: ServiceRaw[] = [
+  service,
+  forgeService,
+  limitOrderService,
+];

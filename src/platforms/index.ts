@@ -13,15 +13,19 @@ import * as aldrin from "./aldrin";
 import * as allbridge from "./allbridge";
 import * as alldomains from "./alldomains";
 import * as altude from "./altude";
+import * as amppay from "./amppay";
 import * as amulet from "./amulet";
+import * as antfun from "./antfun";
 import * as armada from "./armada";
 import * as artrade from "./artrade";
 import * as asgardfi from "./asgardfi";
 import * as atrix from "./atrix";
 import * as aurory from "./aurory";
+import * as axiom from "./axiom";
 import * as backedfinance from "./backedfinance";
 import * as backpack from "./backpack";
 import * as backwoods from "./backwoods";
+import * as bags from "./bags";
 import * as bananagun from "./bananagun";
 import * as banger from "./banger";
 import * as banx from "./banx";
@@ -34,6 +38,7 @@ import * as bloom from "./bloom";
 import * as blueshift from "./blueshift";
 import * as bonfida from "./bonfida";
 import * as bonkbot from "./bonkbot";
+import * as bonkfun from "./bonkfun";
 import * as bonkrewards from "./bonkrewards";
 import * as boop from "./boop";
 import * as bouncebit from "./bouncebit";
@@ -54,6 +59,7 @@ import * as claimyoursols from "./claimyoursols";
 import * as claynosaurz from "./claynosaurz";
 import * as clone from "./clone";
 import * as coinmarketcap from "./coinmarketcap";
+import * as collectorcrypt from "./collectorcrypt";
 import * as cropper from "./cropper";
 import * as cudis from "./cudis";
 import * as cushion from "./cushion";
@@ -74,6 +80,7 @@ import * as drip from "./drip";
 import * as dumpy from "./dumpy";
 import * as elemental from "./elemental";
 import * as ensofi from "./ensofi";
+import * as epicentral from "./epicentral";
 import * as exoticmarkets from "./exoticmarkets";
 import * as exponent from "./exponent";
 import * as famousfoxfederation from "./famousfoxfederation";
@@ -135,6 +142,7 @@ import * as jupiterLaunchpad from "./jupiter-launchpad";
 import * as jupiterPm from "./jupiter-pm";
 import * as jupiterWallet from "./jupiter-wallet";
 import * as kamino from "./kamino";
+import * as kast from "./kast";
 import * as katana from "./katana";
 import * as kineko from "./kineko";
 import * as kishu from "./kishu";
@@ -183,6 +191,7 @@ import * as okx from "./okx";
 import * as omni from "./omni";
 import * as ondoFinance from "./ondo-finance";
 import * as onre from "./onre";
+import * as oobit from "./oobit";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
 import * as orca from "./orca";
@@ -201,6 +210,7 @@ import * as phantom from "./phantom";
 import * as phoenix from "./phoenix";
 import * as photofinish from "./photofinish";
 import * as photon from "./photon";
+import * as phygitals from "./phygitals";
 import * as picasso from "./picasso";
 import * as piggybank from "./piggybank";
 import * as playsolana from "./playsolana";
@@ -245,6 +255,7 @@ import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solanart from "./solanart";
 import * as solayer from "./solayer";
+import * as solcard from "./solcard";
 import * as solcasino from "./solcasino";
 import * as solflare from "./solflare";
 import * as solincinerator from "./solincinerator";
@@ -259,7 +270,6 @@ import * as spdr from "./spdr";
 import * as spice from "./spice";
 import * as squads from "./squads";
 import * as stabble from "./stabble";
-import * as stakewise from "./stakewise";
 import * as stakewiz from "./stakewiz";
 import * as staratlas from "./staratlas";
 import * as stepfinance from "./stepfinance";
@@ -275,9 +285,11 @@ import * as titan from "./titan";
 import * as trepa from "./trepa";
 import * as triad from "./triad";
 import * as tribeca from "./tribeca";
+import * as trojan from "./trojan";
 import * as trustfun from "./trustfun";
 import * as tuktuk from "./tuktuk";
 import * as tulip from "./tulip";
+import * as tuyo from "./tuyo";
 import * as underdog from "./underdog";
 import * as uprock from "./uprock";
 import * as uxd from "./uxd";
@@ -290,9 +302,9 @@ import * as whalesmarket from "./whalesmarket";
 import * as wink from "./wink";
 import * as wintermute from "./wintermute";
 import * as wormhole from "./wormhole";
+import * as xstocks from "./xstocks";
 import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
-import * as yawww from "./yawww";
 import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
 import * as zeta from "./zeta";
@@ -310,15 +322,19 @@ export const platforms: PlatformRaw[] = [
   allbridge.platform,
   alldomains.platform,
   altude.platform,
+  amppay.platform,
   amulet.platform,
+  antfun.platform,
   armada.platform,
   artrade.platform,
   asgardfi.platform,
   atrix.platform,
   aurory.platform,
+  axiom.platform,
   backedfinance.platform,
   backpack.platform,
   backwoods.platform,
+  bags.platform,
   bananagun.platform,
   banger.platform,
   banx.platform,
@@ -331,6 +347,7 @@ export const platforms: PlatformRaw[] = [
   blueshift.platform,
   bonfida.platform,
   bonkbot.platform,
+  bonkfun.platform,
   bonkrewards.platform,
   boop.platform,
   bouncebit.platform,
@@ -351,6 +368,7 @@ export const platforms: PlatformRaw[] = [
   claynosaurz.platform,
   clone.platform,
   coinmarketcap.platform,
+  collectorcrypt.platform,
   cropper.platform,
   cudis.platform,
   cushion.platform,
@@ -371,6 +389,7 @@ export const platforms: PlatformRaw[] = [
   dumpy.platform,
   elemental.platform,
   ensofi.platform,
+  epicentral.platform,
   exoticmarkets.platform,
   exponent.platform,
   famousfoxfederation.platform,
@@ -432,6 +451,7 @@ export const platforms: PlatformRaw[] = [
   jupiterPm.platform,
   jupiterWallet.platform,
   kamino.platform,
+  kast.platform,
   katana.platform,
   kineko.platform,
   kishu.platform,
@@ -480,6 +500,7 @@ export const platforms: PlatformRaw[] = [
   omni.platform,
   ondoFinance.platform,
   onre.platform,
+  oobit.platform,
   openbook.platform,
   openloop.platform,
   orca.platform,
@@ -498,6 +519,7 @@ export const platforms: PlatformRaw[] = [
   phoenix.platform,
   photofinish.platform,
   photon.platform,
+  phygitals.platform,
   picasso.platform,
   piggybank.platform,
   playsolana.platform,
@@ -542,6 +564,7 @@ export const platforms: PlatformRaw[] = [
   solanaid.platform,
   solanart.platform,
   solayer.platform,
+  solcard.platform,
   solcasino.platform,
   solflare.platform,
   solincinerator.platform,
@@ -556,7 +579,6 @@ export const platforms: PlatformRaw[] = [
   spice.platform,
   squads.platform,
   stabble.platform,
-  stakewise.platform,
   stakewiz.platform,
   staratlas.platform,
   stepfinance.platform,
@@ -572,9 +594,11 @@ export const platforms: PlatformRaw[] = [
   trepa.platform,
   triad.platform,
   tribeca.platform,
+  trojan.platform,
   trustfun.platform,
   tuktuk.platform,
   tulip.platform,
+  tuyo.platform,
   underdog.platform,
   uprock.platform,
   uxd.platform,
@@ -587,9 +611,9 @@ export const platforms: PlatformRaw[] = [
   wink.platform,
   wintermute.platform,
   wormhole.platform,
+  xstocks.platform,
   y00ts.platform,
   yaku.platform,
-  yawww.platform,
   yieldfan.platform,
   zelo.platform,
   zeta.platform,
@@ -608,15 +632,19 @@ export const services: ServiceRaw[] = [
   ...allbridge.services,
   ...alldomains.services,
   ...altude.services,
+  ...amppay.services,
   ...amulet.services,
+  ...antfun.services,
   ...armada.services,
   ...artrade.services,
   ...asgardfi.services,
   ...atrix.services,
   ...aurory.services,
+  ...axiom.services,
   ...backedfinance.services,
   ...backpack.services,
   ...backwoods.services,
+  ...bags.services,
   ...bananagun.services,
   ...banger.services,
   ...banx.services,
@@ -629,6 +657,7 @@ export const services: ServiceRaw[] = [
   ...blueshift.services,
   ...bonfida.services,
   ...bonkbot.services,
+  ...bonkfun.services,
   ...bonkrewards.services,
   ...boop.services,
   ...bouncebit.services,
@@ -649,6 +678,7 @@ export const services: ServiceRaw[] = [
   ...claynosaurz.services,
   ...clone.services,
   ...coinmarketcap.services,
+  ...collectorcrypt.services,
   ...cropper.services,
   ...cudis.services,
   ...cushion.services,
@@ -669,6 +699,7 @@ export const services: ServiceRaw[] = [
   ...dumpy.services,
   ...elemental.services,
   ...ensofi.services,
+  ...epicentral.services,
   ...exoticmarkets.services,
   ...exponent.services,
   ...famousfoxfederation.services,
@@ -730,6 +761,7 @@ export const services: ServiceRaw[] = [
   ...jupiterPm.services,
   ...jupiterWallet.services,
   ...kamino.services,
+  ...kast.services,
   ...katana.services,
   ...kineko.services,
   ...kishu.services,
@@ -778,6 +810,7 @@ export const services: ServiceRaw[] = [
   ...omni.services,
   ...ondoFinance.services,
   ...onre.services,
+  ...oobit.services,
   ...openbook.services,
   ...openloop.services,
   ...orca.services,
@@ -796,6 +829,7 @@ export const services: ServiceRaw[] = [
   ...phoenix.services,
   ...photofinish.services,
   ...photon.services,
+  ...phygitals.services,
   ...picasso.services,
   ...piggybank.services,
   ...playsolana.services,
@@ -840,6 +874,7 @@ export const services: ServiceRaw[] = [
   ...solanaid.services,
   ...solanart.services,
   ...solayer.services,
+  ...solcard.services,
   ...solcasino.services,
   ...solflare.services,
   ...solincinerator.services,
@@ -854,7 +889,6 @@ export const services: ServiceRaw[] = [
   ...spice.services,
   ...squads.services,
   ...stabble.services,
-  ...stakewise.services,
   ...stakewiz.services,
   ...staratlas.services,
   ...stepfinance.services,
@@ -870,9 +904,11 @@ export const services: ServiceRaw[] = [
   ...trepa.services,
   ...triad.services,
   ...tribeca.services,
+  ...trojan.services,
   ...trustfun.services,
   ...tuktuk.services,
   ...tulip.services,
+  ...tuyo.services,
   ...underdog.services,
   ...uprock.services,
   ...uxd.services,
@@ -885,9 +921,9 @@ export const services: ServiceRaw[] = [
   ...wink.services,
   ...wintermute.services,
   ...wormhole.services,
+  ...xstocks.services,
   ...y00ts.services,
   ...yaku.services,
-  ...yawww.services,
   ...yieldfan.services,
   ...zelo.services,
   ...zeta.services,

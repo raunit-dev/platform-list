@@ -7,8 +7,8 @@ export const platform: PlatformRaw = {
   tags: ["nft-collection", "gaming"],
   links: {
     website: "https://staking.theakuma.xyz",
-    twitter: "https://x.com/TheAkumaXYZ",
   },
+  platformToken: "AKUjRM9ZcE8t4mQWGX8ToroNjrTSYvNR3bBfFMzY7ahb",
 };
 
 export const services: ServiceRaw[] = [];

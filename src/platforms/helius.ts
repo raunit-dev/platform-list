@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/helius-labs",
     documentation: "https://www.helius.dev/docs",
   },
+  tokens: ["he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A"],
   tags: ["tool", "infrastructure", "lst"],
 };
 

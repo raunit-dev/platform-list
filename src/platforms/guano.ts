@@ -5,7 +5,6 @@ export const platform: PlatformRaw = {
   description: "Memecoin with staking functionality on Solana",
   links: {
     website: "https://www.guanocoin.com/",
-    twitter: "https://x.com/guanocoin",
   },
   tags: ["memecoin"],
 };

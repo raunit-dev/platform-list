@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Oro",
   description:
     "Regulated tokenized gold protocol with yield-bearing tokens backed by physical gold",
+  defiLlamaId: "oro-finance",
   links: {
     website: "https://app.oro.finance/",
     twitter: "https://x.com/orogoldapp",

@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/zeusnetwork",
     medium: "https://medium.com/@zeus-network",
   },
+  defiLlamaId: "zeus-network",
   platformToken: "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq",
   description:
     "Zeus is a multichain layer enabling cross-chain interoperability.",

@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Chopcorp",
   description: "LOG is a digital commodity on the Solana blockchain.",
   tags: ["tool"],
+  defiLlamaId: "chopcorp",
   links: {
     website: "https://chopcorp.io/",
     discord: "https://discord.gg/fCNHMaYE7v",

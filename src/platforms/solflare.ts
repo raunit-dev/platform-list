@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://www.solflare.com/",
     twitter: "https://x.com/solflare",
   },
-  tags: ["wallet"],
+  tags: ["wallet", "card"],
 };
 
 export const services: ServiceRaw[] = [];

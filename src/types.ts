@@ -59,7 +59,8 @@ export type PlatformTag =
   | "payments"
   | "oracle"
   | "nft"
-  | "bitcoin";
+  | "bitcoin"
+  | "card";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 

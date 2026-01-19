@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Photon",
   description:
     "Photon is a trading terminal offering fast token swaps with advanced trading features for memecoins and new launches.",
+  defiLlamaId: "photon",
   links: {
     website: "https://photon-sol.tinyastro.io/",
     twitter: "https://x.com/tradewithPhoton",

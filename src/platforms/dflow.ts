@@ -9,12 +9,18 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/dflow",
     twitter: "https://x.com/dflow",
   },
+  defiLlamaId: "dflow",
   tags: ["dapp", "bridge", "prediction"],
 };
 
 export const contract = {
   name: "Aggregator",
   address: "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+  networkId: NetworkId.solana,
+};
+export const predictionsContract = {
+  name: "Predictions",
+  address: "pReDicTmksnPfkfiz33ndSdbe2dY43KYPg4U2dbvHvb",
   networkId: NetworkId.solana,
 };
 
@@ -25,4 +31,11 @@ export const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [service];
+export const predictionsService: ServiceRaw = {
+  id: `${platform.id}-predictions`,
+  name: "Predictions",
+  platformId: platform.id,
+  contractsRaw: [predictionsContract],
+};
+
+export const services: ServiceRaw[] = [service, predictionsService];

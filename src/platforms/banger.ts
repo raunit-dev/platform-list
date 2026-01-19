@@ -7,7 +7,6 @@ export const platform: PlatformRaw = {
   tags: ["social", "dapp"],
   links: {
     website: "https://www.banger.lol/",
-    twitter: "https://x.com/bangerdotlol",
     documentation: "https://banger.gitbook.io/banger-docs",
   },
 };

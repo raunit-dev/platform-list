@@ -80,4 +80,22 @@ describe("Platforms", () => {
       );
     }
   });
+  // test that platforms does not have duplicate tags
+  it("should not have duplicate tags", () => {
+    const platformsWithDuplicates = platforms
+      .filter((platform) => {
+        if (!platform.tags) {
+          return false;
+        }
+        const uniqueTags = new Set(platform.tags);
+        return uniqueTags.size !== platform.tags.length;
+      })
+      .map((platform) => platform.id);
+
+    if (platformsWithDuplicates.length > 0) {
+      throw new Error(
+        `Platforms have duplicate tags: ${platformsWithDuplicates.join(", ")}`,
+      );
+    }
+  });
 });
