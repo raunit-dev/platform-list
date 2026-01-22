@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description: "Meme token launchpad.",
   links: {
     website: "https://bonk.fun/",
-    twitter: "https://x.com/bonk_fun",
+    twitter: "https://x.com/bonkfun",
   },
   defiLlamaId: "letsbonk.fun",
   tags: ["launchpad", "dapp"],

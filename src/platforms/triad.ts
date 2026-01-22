@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://app.triadfi.co/",
     discord: "http://discord.gg/triadfi",
     telegram: "https://t.me/triad369",
-    twitter: "https://x.com/triadfi",
+    twitter: "https://x.com/triadmarkets",
     github: "https://github.com/triadxyz",
     documentation: "https://docs.triadfi.co/",
   },
