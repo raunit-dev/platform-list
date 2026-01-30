@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/wallet",
   },
   tags: ["bridge", "dapp"],
+  tokens: ["CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn"],
 };
 const aggregator: ContractRaw = {
   name: `Aggregator`,

@@ -14,6 +14,10 @@ export const platform: PlatformRaw = {
   },
   platformToken: "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
   tags: ["tool", "bridge", "dapp"],
+  tokens: [
+    "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+    "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+  ],
 };
 
 const mainContract = {

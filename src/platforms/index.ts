@@ -62,6 +62,7 @@ import * as citrus from "./citrus";
 import * as claimyoursols from "./claimyoursols";
 import * as claynosaurz from "./claynosaurz";
 import * as clone from "./clone";
+import * as coinbase from "./coinbase";
 import * as coinmarketcap from "./coinmarketcap";
 import * as coinshares from "./coinshares";
 import * as collectorcrypt from "./collectorcrypt";
@@ -299,6 +300,7 @@ import * as symmetry from "./symmetry";
 import * as tensor from "./tensor";
 import * as texture from "./texture";
 import * as thevault from "./thevault";
+import * as threshold from "./threshold";
 import * as tiplink from "./tiplink";
 import * as titan from "./titan";
 import * as trepa from "./trepa";
@@ -320,6 +322,7 @@ import * as vectis from "./vectis";
 import * as vidar from "./vidar";
 import * as voltr from "./voltr";
 import * as wasabi from "./wasabi";
+import * as wbtc from "./wbtc";
 import * as whalesmarket from "./whalesmarket";
 import * as wink from "./wink";
 import * as wintermute from "./wintermute";
@@ -329,6 +332,7 @@ import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
 import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
+import * as zenrock from "./zenrock";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
 
@@ -393,6 +397,7 @@ export const platforms: PlatformRaw[] = [
   claimyoursols.platform,
   claynosaurz.platform,
   clone.platform,
+  coinbase.platform,
   coinmarketcap.platform,
   coinshares.platform,
   collectorcrypt.platform,
@@ -630,6 +635,7 @@ export const platforms: PlatformRaw[] = [
   tensor.platform,
   texture.platform,
   thevault.platform,
+  threshold.platform,
   tiplink.platform,
   titan.platform,
   trepa.platform,
@@ -651,6 +657,7 @@ export const platforms: PlatformRaw[] = [
   vidar.platform,
   voltr.platform,
   wasabi.platform,
+  wbtc.platform,
   whalesmarket.platform,
   wink.platform,
   wintermute.platform,
@@ -660,6 +667,7 @@ export const platforms: PlatformRaw[] = [
   yaku.platform,
   yieldfan.platform,
   zelo.platform,
+  zenrock.platform,
   zeta.platform,
   zeus.platform,
 ];
@@ -725,6 +733,7 @@ export const services: ServiceRaw[] = [
   ...claimyoursols.services,
   ...claynosaurz.services,
   ...clone.services,
+  ...coinbase.services,
   ...coinmarketcap.services,
   ...coinshares.services,
   ...collectorcrypt.services,
@@ -962,6 +971,7 @@ export const services: ServiceRaw[] = [
   ...tensor.services,
   ...texture.services,
   ...thevault.services,
+  ...threshold.services,
   ...tiplink.services,
   ...titan.services,
   ...trepa.services,
@@ -983,6 +993,7 @@ export const services: ServiceRaw[] = [
   ...vidar.services,
   ...voltr.services,
   ...wasabi.services,
+  ...wbtc.services,
   ...whalesmarket.services,
   ...wink.services,
   ...wintermute.services,
@@ -992,6 +1003,7 @@ export const services: ServiceRaw[] = [
   ...yaku.services,
   ...yieldfan.services,
   ...zelo.services,
+  ...zenrock.services,
   ...zeta.services,
   ...zeus.services,
 ];
